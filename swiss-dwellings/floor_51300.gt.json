@@ -1,0 +1,2122 @@
+{
+ "schema": "floorplan/v0",
+ "image": {
+  "file": "floor_51300.jpg",
+  "width": 2202,
+  "height": 2400
+ },
+ "scale": {
+  "mm_per_px": 6.0458,
+  "source": "gt (Swiss Dwellings metric coordinates)"
+ },
+ "walls": [
+  {
+   "id": "w1",
+   "centerline": [
+    [
+     1163.11,
+     1273.21
+    ],
+    [
+     1181.67,
+     1936.78
+    ]
+   ],
+   "thickness_px": 19.85,
+   "kind": "unknown",
+   "polygon": [
+    [
+     1171.75,
+     1937.06
+    ],
+    [
+     1191.59,
+     1936.5
+    ],
+    [
+     1173.03,
+     1272.93
+    ],
+    [
+     1153.19,
+     1273.49
+    ]
+   ]
+  },
+  {
+   "id": "w2",
+   "centerline": [
+    [
+     727.42,
+     1774.37
+    ],
+    [
+     292.18,
+     1786.54
+    ]
+   ],
+   "thickness_px": 43.0,
+   "kind": "unknown",
+   "polygon": [
+    [
+     292.78,
+     1808.04
+    ],
+    [
+     728.03,
+     1795.86
+    ],
+    [
+     726.82,
+     1752.88
+    ],
+    [
+     291.58,
+     1765.05
+    ]
+   ]
+  },
+  {
+   "id": "w3",
+   "centerline": [
+    [
+     864.31,
+     367.14
+    ],
+    [
+     629.42,
+     373.71
+    ]
+   ],
+   "thickness_px": 13.23,
+   "kind": "unknown",
+   "polygon": [
+    [
+     629.61,
+     380.32
+    ],
+    [
+     864.49,
+     373.75
+    ],
+    [
+     864.12,
+     360.52
+    ],
+    [
+     629.24,
+     367.09
+    ]
+   ]
+  },
+  {
+   "id": "w4",
+   "centerline": [
+    [
+     1510.68,
+     1005.66
+    ],
+    [
+     271.31,
+     1040.33
+    ]
+   ],
+   "thickness_px": 43.0,
+   "kind": "unknown",
+   "polygon": [
+    [
+     271.91,
+     1061.82
+    ],
+    [
+     1511.29,
+     1027.16
+    ],
+    [
+     1510.08,
+     984.17
+    ],
+    [
+     270.71,
+     1018.83
+    ]
+   ]
+  },
+  {
+   "id": "w5",
+   "centerline": [
+    [
+     1497.51,
+     1961.04
+    ],
+    [
+     733.24,
+     1982.42
+    ]
+   ],
+   "thickness_px": 66.16,
+   "kind": "unknown",
+   "polygon": [
+    [
+     734.17,
+     2015.48
+    ],
+    [
+     1498.44,
+     1994.11
+    ],
+    [
+     1496.59,
+     1927.97
+    ],
+    [
+     732.32,
+     1949.35
+    ]
+   ]
+  },
+  {
+   "id": "w6",
+   "centerline": [
+    [
+     206.74,
+     210.62
+    ],
+    [
+     263.31,
+     2233.44
+    ]
+   ],
+   "thickness_px": 82.7,
+   "kind": "unknown",
+   "polygon": [
+    [
+     221.98,
+     2234.6
+    ],
+    [
+     304.65,
+     2232.28
+    ],
+    [
+     248.07,
+     209.46
+    ],
+    [
+     165.4,
+     211.77
+    ]
+   ]
+  },
+  {
+   "id": "w7",
+   "centerline": [
+    [
+     611.99,
+     223.65
+    ],
+    [
+     248.75,
+     233.81
+    ]
+   ],
+   "thickness_px": 39.7,
+   "kind": "unknown",
+   "polygon": [
+    [
+     249.31,
+     253.65
+    ],
+    [
+     612.54,
+     243.49
+    ],
+    [
+     611.43,
+     203.81
+    ],
+    [
+     248.2,
+     213.97
+    ]
+   ]
+  },
+  {
+   "id": "w8",
+   "centerline": [
+    [
+     1103.75,
+     1274.87
+    ],
+    [
+     1105.31,
+     1330.88
+    ]
+   ],
+   "thickness_px": 19.85,
+   "kind": "unknown",
+   "polygon": [
+    [
+     1113.67,
+     1274.59
+    ],
+    [
+     1093.83,
+     1275.15
+    ],
+    [
+     1095.39,
+     1331.16
+    ],
+    [
+     1115.23,
+     1330.6
+    ]
+   ]
+  },
+  {
+   "id": "w9",
+   "centerline": [
+    [
+     696.63,
+     1028.43
+    ],
+    [
+     716.9,
+     1753.15
+    ]
+   ],
+   "thickness_px": 19.85,
+   "kind": "unknown",
+   "polygon": [
+    [
+     686.71,
+     1028.71
+    ],
+    [
+     706.98,
+     1753.43
+    ],
+    [
+     726.82,
+     1752.88
+    ],
+    [
+     706.56,
+     1028.15
+    ]
+   ]
+  },
+  {
+   "id": "w10",
+   "centerline": [
+    [
+     1514.91,
+     209.98
+    ],
+    [
+     818.98,
+     229.44
+    ]
+   ],
+   "thickness_px": 62.85,
+   "kind": "unknown",
+   "polygon": [
+    [
+     819.85,
+     260.86
+    ],
+    [
+     1515.78,
+     241.39
+    ],
+    [
+     1514.03,
+     178.56
+    ],
+    [
+     818.1,
+     198.03
+    ]
+   ]
+  },
+  {
+   "id": "w11",
+   "centerline": [
+    [
+     706.53,
+     1796.47
+    ],
+    [
+     712.67,
+     2016.09
+    ]
+   ],
+   "thickness_px": 43.0,
+   "kind": "unknown",
+   "polygon": [
+    [
+     691.18,
+     2016.69
+    ],
+    [
+     734.17,
+     2015.48
+    ],
+    [
+     728.03,
+     1795.86
+    ],
+    [
+     685.04,
+     1797.07
+    ]
+   ]
+  },
+  {
+   "id": "w12",
+   "centerline": [
+    [
+     1154.48,
+     1319.58
+    ],
+    [
+     1114.96,
+     1320.68
+    ]
+   ],
+   "thickness_px": 19.85,
+   "kind": "unknown",
+   "polygon": [
+    [
+     1115.23,
+     1330.6
+    ],
+    [
+     1154.75,
+     1329.5
+    ],
+    [
+     1154.2,
+     1309.66
+    ],
+    [
+     1114.68,
+     1310.76
+    ]
+   ]
+  },
+  {
+   "id": "w13",
+   "centerline": [
+    [
+     1502.56,
+     241.76
+    ],
+    [
+     1524.51,
+     1026.79
+    ]
+   ],
+   "thickness_px": 26.46,
+   "kind": "unknown",
+   "polygon": [
+    [
+     1511.29,
+     1027.16
+    ],
+    [
+     1537.74,
+     1026.42
+    ],
+    [
+     1515.78,
+     241.39
+    ],
+    [
+     1489.33,
+     242.13
+    ]
+   ]
+  },
+  {
+   "id": "w14",
+   "centerline": [
+    [
+     874.53,
+     259.33
+    ],
+    [
+     895.28,
+     1001.36
+    ]
+   ],
+   "thickness_px": 26.46,
+   "kind": "unknown",
+   "polygon": [
+    [
+     882.05,
+     1001.73
+    ],
+    [
+     908.51,
+     1000.99
+    ],
+    [
+     887.76,
+     258.96
+    ],
+    [
+     861.3,
+     259.7
+    ]
+   ]
+  },
+  {
+   "id": "w15",
+   "centerline": [
+    [
+     1338.71,
+     1601.86
+    ],
+    [
+     1182.35,
+     1606.23
+    ]
+   ],
+   "thickness_px": 19.85,
+   "kind": "unknown",
+   "polygon": [
+    [
+     1182.07,
+     1596.31
+    ],
+    [
+     1182.63,
+     1616.15
+    ],
+    [
+     1338.99,
+     1611.78
+    ],
+    [
+     1338.43,
+     1591.94
+    ]
+   ]
+  },
+  {
+   "id": "w16",
+   "centerline": [
+    [
+     1329.4,
+     1032.24
+    ],
+    [
+     1335.45,
+     1248.53
+    ]
+   ],
+   "thickness_px": 13.23,
+   "kind": "unknown",
+   "polygon": [
+    [
+     1336.01,
+     1032.06
+    ],
+    [
+     1322.79,
+     1032.43
+    ],
+    [
+     1328.84,
+     1248.72
+    ],
+    [
+     1342.06,
+     1248.35
+    ]
+   ]
+  },
+  {
+   "id": "w17",
+   "centerline": [
+    [
+     1172.75,
+     1263.01
+    ],
+    [
+     713.48,
+     1275.85
+    ]
+   ],
+   "thickness_px": 19.85,
+   "kind": "unknown",
+   "polygon": [
+    [
+     713.76,
+     1285.78
+    ],
+    [
+     1173.03,
+     1272.93
+    ],
+    [
+     1172.47,
+     1253.09
+    ],
+    [
+     713.21,
+     1265.93
+    ]
+   ]
+  },
+  {
+   "id": "w18",
+   "centerline": [
+    [
+     1348.68,
+     1248.16
+    ],
+    [
+     1367.79,
+     1931.58
+    ]
+   ],
+   "thickness_px": 39.7,
+   "kind": "unknown",
+   "polygon": [
+    [
+     1328.84,
+     1248.72
+    ],
+    [
+     1347.95,
+     1932.13
+    ],
+    [
+     1387.63,
+     1931.02
+    ],
+    [
+     1368.52,
+     1247.61
+    ]
+   ]
+  },
+  {
+   "id": "w19",
+   "centerline": [
+    [
+     618.05,
+     203.62
+    ],
+    [
+     622.99,
+     380.51
+    ]
+   ],
+   "thickness_px": 13.23,
+   "kind": "unknown",
+   "polygon": [
+    [
+     616.38,
+     380.69
+    ],
+    [
+     629.61,
+     380.32
+    ],
+    [
+     624.66,
+     203.44
+    ],
+    [
+     611.43,
+     203.81
+    ]
+   ]
+  },
+  {
+   "id": "w20",
+   "centerline": [
+    [
+     1945.17,
+     166.53
+    ],
+    [
+     1994.72,
+     1980.26
+    ]
+   ],
+   "thickness_px": 82.7,
+   "kind": "unknown",
+   "polygon": [
+    [
+     1953.38,
+     1981.39
+    ],
+    [
+     2036.05,
+     1979.13
+    ],
+    [
+     1986.51,
+     165.4
+    ],
+    [
+     1903.84,
+     167.66
+    ]
+   ]
+  },
+  {
+   "id": "w21",
+   "centerline": [
+    [
+     1953.22,
+     1975.6
+    ],
+    [
+     1566.29,
+     1986.42
+    ]
+   ],
+   "thickness_px": 11.58,
+   "kind": "unknown",
+   "polygon": [
+    [
+     1953.06,
+     1969.81
+    ],
+    [
+     1566.13,
+     1980.63
+    ],
+    [
+     1566.46,
+     1992.21
+    ],
+    [
+     1953.38,
+     1981.39
+    ]
+   ]
+  },
+  {
+   "id": "w22",
+   "centerline": [
+    [
+     1565.53,
+     1959.14
+    ],
+    [
+     1239.92,
+     1968.25
+    ]
+   ],
+   "thickness_px": 66.16,
+   "kind": "unknown",
+   "polygon": [
+    [
+     1238.99,
+     1935.18
+    ],
+    [
+     1240.84,
+     2001.31
+    ],
+    [
+     1566.46,
+     1992.21
+    ],
+    [
+     1564.61,
+     1926.07
+    ]
+   ]
+  },
+  {
+   "id": "w23",
+   "centerline": [
+    [
+     1514.91,
+     209.98
+    ],
+    [
+     1366.27,
+     214.13
+    ]
+   ],
+   "thickness_px": 62.85,
+   "kind": "unknown",
+   "polygon": [
+    [
+     1365.39,
+     182.72
+    ],
+    [
+     1367.15,
+     245.55
+    ],
+    [
+     1515.78,
+     241.39
+    ],
+    [
+     1514.03,
+     178.56
+    ]
+   ]
+  },
+  {
+   "id": "w24",
+   "centerline": [
+    [
+     1904.0,
+     173.45
+    ],
+    [
+     1514.19,
+     184.35
+    ]
+   ],
+   "thickness_px": 11.58,
+   "kind": "unknown",
+   "polygon": [
+    [
+     1514.35,
+     190.14
+    ],
+    [
+     1904.15,
+     179.24
+    ],
+    [
+     1903.84,
+     167.66
+    ],
+    [
+     1514.03,
+     178.56
+    ]
+   ]
+  },
+  {
+   "id": "w25",
+   "centerline": [
+    [
+     1510.68,
+     1005.66
+    ],
+    [
+     1186.77,
+     1014.72
+    ]
+   ],
+   "thickness_px": 43.0,
+   "kind": "unknown",
+   "polygon": [
+    [
+     1186.17,
+     993.23
+    ],
+    [
+     1187.37,
+     1036.22
+    ],
+    [
+     1511.29,
+     1027.16
+    ],
+    [
+     1510.08,
+     984.17
+    ]
+   ]
+  }
+ ],
+ "openings": [
+  {
+   "id": "d1",
+   "category": "door",
+   "type": "unknown",
+   "wall_id": "w17",
+   "jambs": [
+    [
+     977.87,
+     1268.46
+    ],
+    [
+     829.06,
+     1272.62
+    ]
+   ],
+   "width_px": 148.86,
+   "depth_px": 19.85,
+   "polygon": [
+    [
+     829.34,
+     1282.54
+    ],
+    [
+     978.14,
+     1278.38
+    ],
+    [
+     977.59,
+     1258.54
+    ],
+    [
+     828.78,
+     1262.7
+    ]
+   ],
+   "leaves": [],
+   "source_subtype": "DOOR",
+   "slide": null,
+   "connects": [
+    "r4",
+    "r8"
+   ],
+   "swing_into": null,
+   "handedness": null,
+   "is_entrance": false,
+   "swing_scorable": false
+  },
+  {
+   "id": "d2",
+   "category": "door",
+   "type": "unknown",
+   "wall_id": "w9",
+   "jambs": [
+    [
+     698.19,
+     1084.17
+    ],
+    [
+     702.36,
+     1232.97
+    ]
+   ],
+   "width_px": 148.86,
+   "depth_px": 19.85,
+   "polygon": [
+    [
+     688.27,
+     1084.45
+    ],
+    [
+     692.43,
+     1233.25
+    ],
+    [
+     712.28,
+     1232.7
+    ],
+    [
+     708.11,
+     1083.89
+    ]
+   ],
+   "leaves": [],
+   "source_subtype": "DOOR",
+   "slide": null,
+   "connects": [
+    "r1",
+    "r4"
+   ],
+   "swing_into": null,
+   "handedness": null,
+   "is_entrance": false,
+   "swing_scorable": false
+  },
+  {
+   "id": "d3",
+   "category": "door",
+   "type": "unknown",
+   "wall_id": "w16",
+   "jambs": [
+    [
+     1330.44,
+     1069.41
+    ],
+    [
+     1334.6,
+     1218.21
+    ]
+   ],
+   "width_px": 148.86,
+   "depth_px": 13.23,
+   "polygon": [
+    [
+     1323.83,
+     1069.59
+    ],
+    [
+     1327.99,
+     1218.4
+    ],
+    [
+     1341.21,
+     1218.03
+    ],
+    [
+     1337.05,
+     1069.22
+    ]
+   ],
+   "leaves": [],
+   "source_subtype": "ENTRANCE_DOOR",
+   "slide": null,
+   "connects": [
+    "r4",
+    "r9"
+   ],
+   "swing_into": null,
+   "handedness": null,
+   "is_entrance": true,
+   "swing_scorable": false
+  },
+  {
+   "id": "win1",
+   "category": "window",
+   "type": "unknown",
+   "wall_id": "w5",
+   "jambs": [
+    [
+     1061.55,
+     1973.23
+    ],
+    [
+     846.61,
+     1979.25
+    ]
+   ],
+   "width_px": 215.02,
+   "depth_px": 66.16,
+   "polygon": [
+    [
+     847.53,
+     2012.31
+    ],
+    [
+     1062.47,
+     2006.3
+    ],
+    [
+     1060.62,
+     1940.17
+    ],
+    [
+     845.68,
+     1946.18
+    ]
+   ],
+   "leaves": [],
+   "source_subtype": "WINDOW",
+   "connects": [
+    "r8",
+    "outside"
+   ]
+  },
+  {
+   "id": "d4",
+   "category": "door",
+   "type": "unknown",
+   "wall_id": "w4",
+   "jambs": [
+    [
+     1167.27,
+     1015.27
+    ],
+    [
+     1018.47,
+     1019.43
+    ]
+   ],
+   "width_px": 148.86,
+   "depth_px": 43.0,
+   "polygon": [
+    [
+     1019.07,
+     1040.92
+    ],
+    [
+     1167.87,
+     1036.76
+    ],
+    [
+     1166.67,
+     993.77
+    ],
+    [
+     1017.87,
+     997.94
+    ]
+   ],
+   "leaves": [],
+   "source_subtype": "DOOR",
+   "slide": null,
+   "connects": [
+    "r5",
+    "r4"
+   ],
+   "swing_into": null,
+   "handedness": null,
+   "is_entrance": false,
+   "swing_scorable": false
+  },
+  {
+   "id": "d5",
+   "category": "door",
+   "type": "unknown",
+   "wall_id": "w2",
+   "jambs": [
+    [
+     600.23,
+     1777.93
+    ],
+    [
+     385.29,
+     1783.94
+    ]
+   ],
+   "width_px": 215.02,
+   "depth_px": 43.0,
+   "polygon": [
+    [
+     385.89,
+     1805.43
+    ],
+    [
+     600.83,
+     1799.42
+    ],
+    [
+     599.63,
+     1756.43
+    ],
+    [
+     384.69,
+     1762.44
+    ]
+   ],
+   "leaves": [],
+   "source_subtype": "DOOR",
+   "slide": null,
+   "connects": [
+    "r1",
+    "r3"
+   ],
+   "swing_into": null,
+   "handedness": null,
+   "is_entrance": false,
+   "swing_scorable": false
+  },
+  {
+   "id": "win2",
+   "category": "window",
+   "type": "unknown",
+   "wall_id": "w7",
+   "jambs": [
+    [
+     598.9,
+     224.01
+    ],
+    [
+     268.23,
+     233.26
+    ]
+   ],
+   "width_px": 330.81,
+   "depth_px": 39.7,
+   "polygon": [
+    [
+     268.78,
+     253.1
+    ],
+    [
+     599.46,
+     243.85
+    ],
+    [
+     598.35,
+     204.17
+    ],
+    [
+     267.67,
+     213.42
+    ]
+   ],
+   "leaves": [],
+   "source_subtype": "WINDOW",
+   "connects": [
+    "outside",
+    "r7"
+   ]
+  },
+  {
+   "id": "d6",
+   "category": "door",
+   "type": "unknown",
+   "wall_id": "w15",
+   "jambs": [
+    [
+     1318.75,
+     1602.42
+    ],
+    [
+     1203.01,
+     1605.66
+    ]
+   ],
+   "width_px": 115.78,
+   "depth_px": 19.85,
+   "polygon": [
+    [
+     1318.47,
+     1592.5
+    ],
+    [
+     1202.73,
+     1595.73
+    ],
+    [
+     1203.29,
+     1615.58
+    ],
+    [
+     1319.02,
+     1612.34
+    ]
+   ],
+   "leaves": [],
+   "source_subtype": "DOOR",
+   "slide": null,
+   "connects": [
+    "r4",
+    "r2"
+   ],
+   "swing_into": null,
+   "handedness": null,
+   "is_entrance": false,
+   "swing_scorable": false
+  },
+  {
+   "id": "d7",
+   "category": "door",
+   "type": "unknown",
+   "wall_id": "w4",
+   "jambs": [
+    [
+     867.33,
+     1023.66
+    ],
+    [
+     718.52,
+     1027.82
+    ]
+   ],
+   "width_px": 148.86,
+   "depth_px": 43.0,
+   "polygon": [
+    [
+     719.12,
+     1049.31
+    ],
+    [
+     867.93,
+     1045.15
+    ],
+    [
+     866.73,
+     1002.16
+    ],
+    [
+     717.92,
+     1006.32
+    ]
+   ],
+   "leaves": [],
+   "source_subtype": "DOOR",
+   "slide": null,
+   "connects": [
+    "r7",
+    "r4"
+   ],
+   "swing_into": null,
+   "handedness": null,
+   "is_entrance": false,
+   "swing_scorable": false
+  },
+  {
+   "id": "win3",
+   "category": "window",
+   "type": "unknown",
+   "wall_id": "w11",
+   "jambs": [
+    [
+     706.53,
+     1796.46
+    ],
+    [
+     710.69,
+     1945.27
+    ]
+   ],
+   "width_px": 148.86,
+   "depth_px": 43.0,
+   "polygon": [
+    [
+     685.04,
+     1797.07
+    ],
+    [
+     689.2,
+     1945.87
+    ],
+    [
+     732.19,
+     1944.67
+    ],
+    [
+     728.03,
+     1795.86
+    ]
+   ],
+   "leaves": [],
+   "source_subtype": "WINDOW",
+   "connects": [
+    "r3",
+    "r8"
+   ]
+  },
+  {
+   "id": "win4",
+   "category": "window",
+   "type": "unknown",
+   "wall_id": "w10",
+   "jambs": [
+    [
+     1298.23,
+     216.04
+    ],
+    [
+     1083.29,
+     222.05
+    ]
+   ],
+   "width_px": 215.02,
+   "depth_px": 62.85,
+   "polygon": [
+    [
+     1084.17,
+     253.46
+    ],
+    [
+     1299.11,
+     247.45
+    ],
+    [
+     1297.35,
+     184.62
+    ],
+    [
+     1082.41,
+     190.63
+    ]
+   ],
+   "leaves": [],
+   "source_subtype": "WINDOW",
+   "connects": [
+    "outside",
+    "r5"
+   ]
+  },
+  {
+   "id": "d8",
+   "category": "door",
+   "type": "unknown",
+   "wall_id": "w3",
+   "jambs": [
+    [
+     820.46,
+     368.36
+    ],
+    [
+     646.85,
+     373.22
+    ]
+   ],
+   "width_px": 173.67,
+   "depth_px": 13.23,
+   "polygon": [
+    [
+     647.04,
+     379.83
+    ],
+    [
+     820.64,
+     374.98
+    ],
+    [
+     820.27,
+     361.75
+    ],
+    [
+     646.67,
+     366.61
+    ]
+   ],
+   "leaves": [],
+   "source_subtype": "ENTRANCE_DOOR",
+   "slide": null,
+   "connects": [
+    "outside",
+    "r7"
+   ],
+   "swing_into": null,
+   "handedness": null,
+   "is_entrance": true,
+   "swing_scorable": false
+  },
+  {
+   "id": "win5",
+   "category": "window",
+   "type": "unknown",
+   "wall_id": "w5",
+   "jambs": [
+    [
+     1336.96,
+     1965.53
+    ],
+    [
+     1204.69,
+     1969.23
+    ]
+   ],
+   "width_px": 132.32,
+   "depth_px": 66.16,
+   "polygon": [
+    [
+     1205.61,
+     2002.3
+    ],
+    [
+     1337.88,
+     1998.6
+    ],
+    [
+     1336.03,
+     1932.46
+    ],
+    [
+     1203.76,
+     1936.16
+    ]
+   ],
+   "leaves": [],
+   "source_subtype": "WINDOW",
+   "connects": [
+    "r2",
+    "outside"
+   ]
+  },
+  {
+   "id": "win6",
+   "category": "window",
+   "type": "unknown",
+   "wall_id": "w19",
+   "jambs": [
+    [
+     619.34,
+     249.86
+    ],
+    [
+     622.11,
+     349.06
+    ]
+   ],
+   "width_px": 99.24,
+   "depth_px": 13.23,
+   "polygon": [
+    [
+     612.72,
+     250.04
+    ],
+    [
+     615.5,
+     349.24
+    ],
+    [
+     628.73,
+     348.87
+    ],
+    [
+     625.95,
+     249.67
+    ]
+   ],
+   "leaves": [],
+   "source_subtype": "WINDOW",
+   "connects": [
+    "r7",
+    "outside"
+   ]
+  },
+  {
+   "id": "d9",
+   "category": "door",
+   "type": "unknown",
+   "wall_id": "w24",
+   "jambs": [
+    [
+     1889.2,
+     173.86
+    ],
+    [
+     1707.33,
+     178.95
+    ]
+   ],
+   "width_px": 181.94,
+   "depth_px": 11.58,
+   "polygon": [
+    [
+     1707.49,
+     184.74
+    ],
+    [
+     1889.36,
+     179.65
+    ],
+    [
+     1889.04,
+     168.08
+    ],
+    [
+     1707.17,
+     173.16
+    ]
+   ],
+   "leaves": [],
+   "source_subtype": "ENTRANCE_DOOR",
+   "slide": null,
+   "connects": [
+    "outside",
+    "r9"
+   ],
+   "swing_into": null,
+   "handedness": null,
+   "is_entrance": true,
+   "swing_scorable": false
+  },
+  {
+   "id": "d10",
+   "category": "door",
+   "type": "unknown",
+   "wall_id": "w24",
+   "jambs": [
+    [
+     1706.81,
+     178.96
+    ],
+    [
+     1524.93,
+     184.05
+    ]
+   ],
+   "width_px": 181.94,
+   "depth_px": 11.58,
+   "polygon": [
+    [
+     1525.1,
+     189.84
+    ],
+    [
+     1706.97,
+     184.75
+    ],
+    [
+     1706.64,
+     173.18
+    ],
+    [
+     1524.77,
+     178.26
+    ]
+   ],
+   "leaves": [],
+   "source_subtype": "ENTRANCE_DOOR",
+   "slide": null,
+   "connects": [
+    "outside",
+    "r9"
+   ],
+   "swing_into": null,
+   "handedness": null,
+   "is_entrance": true,
+   "swing_scorable": false
+  },
+  {
+   "id": "d11",
+   "category": "door",
+   "type": "unknown",
+   "wall_id": "w21",
+   "jambs": [
+    [
+     1944.93,
+     1975.83
+    ],
+    [
+     1763.06,
+     1980.92
+    ]
+   ],
+   "width_px": 181.94,
+   "depth_px": 11.58,
+   "polygon": [
+    [
+     1944.77,
+     1970.04
+    ],
+    [
+     1762.9,
+     1975.13
+    ],
+    [
+     1763.22,
+     1986.7
+    ],
+    [
+     1945.1,
+     1981.62
+    ]
+   ],
+   "leaves": [],
+   "source_subtype": "ENTRANCE_DOOR",
+   "slide": null,
+   "connects": [
+    "r9",
+    "outside"
+   ],
+   "swing_into": null,
+   "handedness": null,
+   "is_entrance": true,
+   "swing_scorable": false
+  },
+  {
+   "id": "d12",
+   "category": "door",
+   "type": "unknown",
+   "wall_id": "w21",
+   "jambs": [
+    [
+     1760.89,
+     1980.98
+    ],
+    [
+     1579.01,
+     1986.06
+    ]
+   ],
+   "width_px": 181.94,
+   "depth_px": 11.58,
+   "polygon": [
+    [
+     1760.72,
+     1975.19
+    ],
+    [
+     1578.85,
+     1980.28
+    ],
+    [
+     1579.18,
+     1991.85
+    ],
+    [
+     1761.05,
+     1986.77
+    ]
+   ],
+   "leaves": [],
+   "source_subtype": "ENTRANCE_DOOR",
+   "slide": null,
+   "connects": [
+    "r9",
+    "outside"
+   ],
+   "swing_into": null,
+   "handedness": null,
+   "is_entrance": true,
+   "swing_scorable": false
+  }
+ ],
+ "rooms": [
+  {
+   "id": "r1",
+   "polygon": [
+    [
+     687.15,
+     1050.37
+    ],
+    [
+     272.08,
+     1061.98
+    ],
+    [
+     291.74,
+     1764.88
+    ],
+    [
+     706.81,
+     1753.27
+    ]
+   ],
+   "label": "OFFICE",
+   "type": "other",
+   "label_source": "gt",
+   "source_subtype": "OFFICE",
+   "unit_id": "160845",
+   "area_id": "1675400.0"
+  },
+  {
+   "id": "r2",
+   "polygon": [
+    [
+     1347.78,
+     1931.97
+    ],
+    [
+     1338.83,
+     1611.95
+    ],
+    [
+     1182.8,
+     1616.31
+    ],
+    [
+     1191.75,
+     1936.33
+    ]
+   ],
+   "label": "BATHROOM",
+   "type": "bath",
+   "label_source": "gt",
+   "source_subtype": "BATHROOM",
+   "unit_id": "160845",
+   "area_id": "1675402.0"
+  },
+  {
+   "id": "r3",
+   "polygon": [
+    [
+     300.65,
+     2083.48
+    ],
+    [
+     725.72,
+     2071.59
+    ],
+    [
+     724.17,
+     2015.93
+    ],
+    [
+     691.02,
+     2016.86
+    ],
+    [
+     684.88,
+     1797.24
+    ],
+    [
+     292.95,
+     1808.2
+    ]
+   ],
+   "label": "BALCONY",
+   "type": "balcony",
+   "label_source": "gt",
+   "source_subtype": "BALCONY",
+   "unit_id": "160845",
+   "area_id": "1675403.0"
+  },
+  {
+   "id": "r4",
+   "polygon": [
+    [
+     1182.23,
+     1596.14
+    ],
+    [
+     1338.26,
+     1591.78
+    ],
+    [
+     1328.67,
+     1248.71
+    ],
+    [
+     1322.63,
+     1032.6
+    ],
+    [
+     707.33,
+     1049.81
+    ],
+    [
+     713.37,
+     1265.76
+    ],
+    [
+     1172.63,
+     1252.92
+    ],
+    [
+     1173.2,
+     1273.09
+    ],
+    [
+     1173.2,
+     1273.09
+    ]
+   ],
+   "label": "LOBBY",
+   "type": "corridor",
+   "label_source": "gt",
+   "source_subtype": "LOBBY",
+   "unit_id": "160845",
+   "area_id": "1675398.0"
+  },
+  {
+   "id": "r5",
+   "polygon": [
+    [
+     908.67,
+     1000.82
+    ],
+    [
+     1509.91,
+     984.01
+    ],
+    [
+     1489.17,
+     242.3
+    ],
+    [
+     887.93,
+     259.12
+    ]
+   ],
+   "label": "OFFICE",
+   "type": "other",
+   "label_source": "gt",
+   "source_subtype": "OFFICE",
+   "unit_id": "160845",
+   "area_id": "1675396.0"
+  },
+  {
+   "id": "r6",
+   "polygon": [
+    [
+     1113.84,
+     1274.75
+    ],
+    [
+     1114.84,
+     1310.59
+    ],
+    [
+     1154.03,
+     1309.5
+    ],
+    [
+     1153.03,
+     1273.66
+    ]
+   ],
+   "label": "SHAFT",
+   "type": "other",
+   "label_source": "gt",
+   "source_subtype": "SHAFT",
+   "unit_id": "160845",
+   "area_id": "1675399.0"
+  },
+  {
+   "id": "r7",
+   "polygon": [
+    [
+     270.87,
+     1018.66
+    ],
+    [
+     881.88,
+     1001.57
+    ],
+    [
+     864.33,
+     373.92
+    ],
+    [
+     629.61,
+     380.49
+    ],
+    [
+     616.22,
+     380.86
+    ],
+    [
+     612.38,
+     243.66
+    ],
+    [
+     249.48,
+     253.81
+    ]
+   ],
+   "label": "SALESROOM",
+   "type": "other",
+   "label_source": "gt",
+   "source_subtype": "SALESROOM",
+   "unit_id": "160845",
+   "area_id": "1675395.0"
+  },
+  {
+   "id": "r8",
+   "polygon": [
+    [
+     1095.23,
+     1331.33
+    ],
+    [
+     1093.67,
+     1275.32
+    ],
+    [
+     713.93,
+     1285.94
+    ],
+    [
+     726.98,
+     1752.71
+    ],
+    [
+     728.24,
+     1797.68
+    ],
+    [
+     732.48,
+     1949.18
+    ],
+    [
+     1171.58,
+     1936.9
+    ],
+    [
+     1154.59,
+     1329.67
+    ]
+   ],
+   "label": "COMMON_KITCHEN",
+   "type": "other",
+   "label_source": "gt",
+   "source_subtype": "COMMON_KITCHEN",
+   "unit_id": "160845",
+   "area_id": "1675401.0"
+  },
+  {
+   "id": "r9",
+   "polygon": [
+    [
+     1537.91,
+     1026.58
+    ],
+    [
+     1509.47,
+     1027.37
+    ],
+    [
+     1336.18,
+     1032.22
+    ],
+    [
+     1342.22,
+     1248.18
+    ],
+    [
+     1368.68,
+     1247.44
+    ],
+    [
+     1387.79,
+     1930.85
+    ],
+    [
+     1564.77,
+     1925.9
+    ],
+    [
+     1566.29,
+     1980.46
+    ],
+    [
+     1952.9,
+     1969.65
+    ],
+    [
+     1903.99,
+     179.41
+    ],
+    [
+     1514.52,
+     190.3
+    ],
+    [
+     1515.95,
+     241.55
+    ],
+    [
+     1515.95,
+     241.55
+    ]
+   ],
+   "label": "VEHICLE_TRAFFIC_AREA",
+   "type": "other",
+   "label_source": "gt",
+   "source_subtype": "VEHICLE_TRAFFIC_AREA",
+   "unit_id": "",
+   "area_id": "1675397.0"
+  }
+ ],
+ "stairs": [
+  {
+   "id": "s1",
+   "polygon": [
+    [
+     1536.26,
+     1026.59
+    ],
+    [
+     1451.94,
+     1028.95
+    ],
+    [
+     1457.95,
+     1243.89
+    ],
+    [
+     1542.27,
+     1241.53
+    ]
+   ],
+   "direction": null
+  }
+ ],
+ "labels": [
+  {
+   "text": "OFFICE",
+   "bbox": [
+    382,
+    1385,
+    595,
+    1429
+   ],
+   "kind": "room_name"
+  },
+  {
+   "text": "BATHROOM",
+   "bbox": [
+    1099,
+    1752,
+    1431,
+    1796
+   ],
+   "kind": "room_name"
+  },
+  {
+   "text": "BALCONY",
+   "bbox": [
+    356,
+    1920,
+    635,
+    1964
+   ],
+   "kind": "room_name"
+  },
+  {
+   "text": "LOBBY",
+   "bbox": [
+    986,
+    1205,
+    1185,
+    1249
+   ],
+   "kind": "room_name"
+  },
+  {
+   "text": "OFFICE",
+   "bbox": [
+    1092,
+    599,
+    1305,
+    643
+   ],
+   "kind": "room_name"
+  },
+  {
+   "text": "SALESROOM",
+   "bbox": [
+    369,
+    630,
+    735,
+    674
+   ],
+   "kind": "room_name"
+  },
+  {
+   "text": "COMMON KITCHEN",
+   "bbox": [
+    661,
+    1592,
+    1220,
+    1636
+   ],
+   "kind": "room_name"
+  },
+  {
+   "text": "VEHICLE TRAFFIC AREA",
+   "bbox": [
+    1330,
+    1131,
+    2032,
+    1175
+   ],
+   "kind": "room_name"
+  }
+ ],
+ "gt_fidelity": {
+  "walls": "full",
+  "door_swing": "none",
+  "door_type": false,
+  "windows": true,
+  "rooms": true,
+  "room_types": true,
+  "derived_from": "Swiss Dwellings v3.0.0 geometries.csv floor_id=51300 site_id=11905; image rendered from the GT geometry (doors drawn as outlined white rectangles in the wall, no swing arc: source has no swing)"
+ },
+ "source": {
+  "dataset": "Swiss Dwellings v3.0.0",
+  "floor_id": "51300",
+  "site_id": "11905",
+  "plan_id": "44121",
+  "building_id": "18609",
+  "unit_ids": [
+   "",
+   "160845"
+  ],
+  "px_per_m": 165.4033,
+  "transform": "x_px=(x_m--5.5779+1.0)*ppm, y_px=(5.8421-y_m+1.0)*ppm"
+ }
+}

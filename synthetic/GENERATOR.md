@@ -7,9 +7,9 @@ This set is our own procedurally generated data, released with no restrictions. 
 ```
 python3 -m venv .venv   # only if it is missing
 .venv/bin/pip install shapely numpy opencv-python-headless
-.venv/bin/python -I tools/synthetic_gen.py --all --out testdata/synthetic      # all 24 + manifest.json
+.venv/bin/python -I tools/synthetic_gen.py --all --out synthetic               # all 24 + manifest.json
 .venv/bin/python -I tools/synthetic_gen.py --index 7 --out /tmp/one            # a single sample
-python3 -I tools/fpgt.py validate testdata/synthetic/*.gt.json
+python3 -I tools/fpgt.py validate synthetic/*.gt.json
 ```
 
 The output is deterministic: two runs give byte-identical JPGs and JSON with the same library versions (shapely 2.2, opencv 5.0, numpy 2.5). Each sample uses `seed = 20261013 + 7919 * index` with Python's `random.Random`. Degradation noise uses `numpy.default_rng(seed)`.
@@ -121,4 +121,4 @@ These conventions are repeated in every file under `conventions`.
 
 ## Independent verification
 
-`python3 -I tools/synthetic_verify.py testdata/synthetic` re-derives every door's 4 (single) or 2 (double) possible hinge/swing hypotheses from the jambs, wall normal and wall thickness only, scores the ink on each hypothesis' arc and leaf in the JPG, and requires the GT leaf to be the best one. It also checks swing_into/connects against room polygons, handedness, pocket direction, window symbols, wall faces/gaps, room edges, labels, scale and manifest counts. Result: 135/135 swing doors confirmed. The remaining flags are known detector false positives (pastel fill or heavy blur near door gaps in samples 22-23, and window glass-band tests at 900 px).
+`python3 -I tools/synthetic_verify.py synthetic` re-derives every door's 4 (single) or 2 (double) possible hinge/swing hypotheses from the jambs, wall normal and wall thickness only, scores the ink on each hypothesis' arc and leaf in the JPG, and requires the GT leaf to be the best one. It also checks swing_into/connects against room polygons, handedness, pocket direction, window symbols, wall faces/gaps, room edges, labels, scale and manifest counts. Result: 135/135 swing doors confirmed. The remaining flags are known detector false positives (pastel fill or heavy blur near door gaps in samples 22-23, and window glass-band tests at 900 px).

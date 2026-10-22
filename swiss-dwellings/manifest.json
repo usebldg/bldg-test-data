@@ -1,0 +1,98 @@
+[
+ {
+  "file": "realworld_08.jpg",
+  "gt_file": "realworld_08.gt.json",
+  "orig_gt_file": "realworld_08.orig.csv",
+  "source_page": "https://zenodo.org/records/7788422 (doi:10.5281/zenodo.7788422)",
+  "file_url": "https://zenodo.org/api/records/7788422/files/swiss-dwellings-v3.0.0.zip/content (member swiss-dwellings-v3.0.0/geometries.csv) :: floor_id 1588",
+  "author": "Archilyse AG: M. Standfest, M. Franzen, Y. Schroeder, L. Gonzalez Medina, Y. Villanueva Hernandez, J. H. Buck, Y.-L. Tan, M. Niedzwiecka, R. Colmegna - Swiss Dwellings v3.0.0",
+  "license": "CC BY 4.0 (Zenodo record metadata). Image rendered by tools/realworld_convert_msd.py from the CC BY 4.0 geometry (adaptation; attribute Archilyse / Swiss Dwellings)",
+  "style": "synthetic",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": false,
+  "notes": "Rendered from geometry; building is rotated ~40 deg in the source frame (kept, tests rotation). Source has door/window rectangles only (no hinge/swing/leaf count): doors drawn as outlined white rectangles in the wall (no arc; windows look similar but carry a centre line), type unknown, leaves []. Walls, windows, rooms with types, stairs, scale (mm_per_px) are exact GT. Room-type text is rendered from GT and listed in labels.",
+  "approx_px": [
+   2297,
+   2400
+  ],
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "none",
+   "door_type": false,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "Swiss Dwellings v3.0.0 geometries.csv floor_id=1588 site_id=210; image rendered from the GT geometry (doors drawn as outlined white rectangles in the wall, no swing arc: source has no swing)"
+  },
+  "n_walls": 56,
+  "n_doors": 14,
+  "n_doors_with_swing": 0,
+  "n_windows": 14,
+  "n_rooms": 21
+ },
+ {
+  "file": "realworld_09.jpg",
+  "gt_file": "realworld_09.gt.json",
+  "orig_gt_file": "realworld_09.orig.csv",
+  "source_page": "https://zenodo.org/records/7788422 (doi:10.5281/zenodo.7788422)",
+  "file_url": "https://zenodo.org/api/records/7788422/files/swiss-dwellings-v3.0.0.zip/content (member swiss-dwellings-v3.0.0/geometries.csv) :: floor_id 4024",
+  "author": "Archilyse AG: M. Standfest, M. Franzen, Y. Schroeder, L. Gonzalez Medina, Y. Villanueva Hernandez, J. H. Buck, Y.-L. Tan, M. Niedzwiecka, R. Colmegna - Swiss Dwellings v3.0.0",
+  "license": "CC BY 4.0 (Zenodo record metadata). Image rendered by tools/realworld_convert_msd.py from the CC BY 4.0 geometry (adaptation; attribute Archilyse / Swiss Dwellings)",
+  "style": "synthetic",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": false,
+  "notes": "Rendered from geometry; multi-unit floor with loggias. Source has door/window rectangles only (no hinge/swing/leaf count): doors drawn as outlined white rectangles in the wall (no arc; windows look similar but carry a centre line), type unknown, leaves []. Walls, windows, rooms with types, stairs, scale (mm_per_px) are exact GT. Room-type text is rendered from GT and listed in labels.",
+  "approx_px": [
+   2400,
+   1969
+  ],
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "none",
+   "door_type": false,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "Swiss Dwellings v3.0.0 geometries.csv floor_id=4024 site_id=19; image rendered from the GT geometry (doors drawn as outlined white rectangles in the wall, no swing arc: source has no swing)"
+  },
+  "n_walls": 61,
+  "n_doors": 19,
+  "n_doors_with_swing": 0,
+  "n_windows": 15,
+  "n_rooms": 22
+ },
+ {
+  "file": "realworld_10.jpg",
+  "gt_file": "realworld_10.gt.json",
+  "orig_gt_file": "realworld_10.orig.csv",
+  "source_page": "https://zenodo.org/records/7788422 (doi:10.5281/zenodo.7788422)",
+  "file_url": "https://zenodo.org/api/records/7788422/files/swiss-dwellings-v3.0.0.zip/content (member swiss-dwellings-v3.0.0/geometries.csv) :: floor_id 42195",
+  "author": "Archilyse AG: M. Standfest, M. Franzen, Y. Schroeder, L. Gonzalez Medina, Y. Villanueva Hernandez, J. H. Buck, Y.-L. Tan, M. Niedzwiecka, R. Colmegna - Swiss Dwellings v3.0.0",
+  "license": "CC BY 4.0 (Zenodo record metadata). Image rendered by tools/realworld_convert_msd.py from the CC BY 4.0 geometry (adaptation; attribute Archilyse / Swiss Dwellings)",
+  "style": "synthetic",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": false,
+  "notes": "Rendered from geometry; rotated building, 3 units. Source has door/window rectangles only (no hinge/swing/leaf count): doors drawn as outlined white rectangles in the wall (no arc; windows look similar but carry a centre line), type unknown, leaves []. Walls, windows, rooms with types, stairs, scale (mm_per_px) are exact GT. Room-type text is rendered from GT and listed in labels.",
+  "approx_px": [
+   2400,
+   2285
+  ],
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "none",
+   "door_type": false,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "Swiss Dwellings v3.0.0 geometries.csv floor_id=42195 site_id=11111; image rendered from the GT geometry (doors drawn as outlined white rectangles in the wall, no swing arc: source has no swing)"
+  },
+  "n_walls": 41,
+  "n_doors": 15,
+  "n_doors_with_swing": 0,
+  "n_windows": 15,
+  "n_rooms": 19
+ }
+]

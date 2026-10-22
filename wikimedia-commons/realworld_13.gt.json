@@ -1,0 +1,31 @@
+{
+ "schema": "floorplan/v0",
+ "image": {
+  "file": "realworld_13.jpg",
+  "width": 2160,
+  "height": 2576
+ },
+ "scale": {
+  "mm_per_px": null,
+  "source": null
+ },
+ "walls": [],
+ "openings": [],
+ "rooms": [],
+ "stairs": [],
+ "labels": [],
+ "gt_fidelity": {
+  "walls": "none",
+  "door_swing": "none",
+  "door_type": false,
+  "windows": false,
+  "rooms": false,
+  "room_types": false,
+  "derived_from": "none (visual-only Wikimedia Commons image; no ground truth)"
+ },
+ "source": {
+  "dataset": "Wikimedia Commons",
+  "title": "File:2 bhk Bungalow floor plan.jpg",
+  "scale_applied": 1.0
+ }
+}

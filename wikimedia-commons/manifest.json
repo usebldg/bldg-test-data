@@ -1,0 +1,98 @@
+[
+ {
+  "file": "realworld_11.jpg",
+  "gt_file": "realworld_11.gt.json",
+  "orig_gt_file": null,
+  "source_page": "https://commons.wikimedia.org/wiki/File:Garfield_Home_(ca_1885)_NPS,_DSC_(1st_floor).JPG",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Garfield_Home_%28ca_1885%29_NPS%2C_DSC_%281st_floor%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "author": "Paul Newman",
+  "license": "Public domain - from Commons API extmetadata",
+  "style": "scan",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": false,
+  "notes": "Historic US NPS Historic Structures Report plan (Lawnfield, Garfield home), scanned, handwritten-style annotations; kitchen/bath fixtures drawn. Visual-only: no ground truth (gt_fidelity none/false). Commons description: First Floor plan of Lawnfield, James A Garfields Home",
+  "approx_px": [
+   1346,
+   1340
+  ],
+  "gt_fidelity": {
+   "walls": "none",
+   "door_swing": "none",
+   "door_type": false,
+   "windows": false,
+   "rooms": false,
+   "room_types": false,
+   "derived_from": "none (visual-only Wikimedia Commons image; no ground truth)"
+  },
+  "n_walls": 0,
+  "n_doors": 0,
+  "n_doors_with_swing": 0,
+  "n_windows": 0,
+  "n_rooms": 0
+ },
+ {
+  "file": "realworld_13.jpg",
+  "gt_file": "realworld_13.gt.json",
+  "orig_gt_file": null,
+  "source_page": "https://commons.wikimedia.org/wiki/File:2_bhk_Bungalow_floor_plan.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/2_bhk_Bungalow_floor_plan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "author": "Jithurad4539",
+  "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) - from Commons API extmetadata",
+  "style": "marketing",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": true,
+  "notes": "Colour marketing-style 2BHK plan with furniture, tiles and door swings. Visual-only: no ground truth (gt_fidelity none/false). Commons description: 2 bhk Bungalow floor plan",
+  "approx_px": [
+   2160,
+   2576
+  ],
+  "gt_fidelity": {
+   "walls": "none",
+   "door_swing": "none",
+   "door_type": false,
+   "windows": false,
+   "rooms": false,
+   "room_types": false,
+   "derived_from": "none (visual-only Wikimedia Commons image; no ground truth)"
+  },
+  "n_walls": 0,
+  "n_doors": 0,
+  "n_doors_with_swing": 0,
+  "n_windows": 0,
+  "n_rooms": 0
+ },
+ {
+  "file": "realworld_14.jpg",
+  "gt_file": "realworld_14.gt.json",
+  "orig_gt_file": null,
+  "source_page": "https://commons.wikimedia.org/wiki/File:178_Central_Street_Somerville_MA.png",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/178_Central_Street_Somerville_MA.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "author": "Jameslwoodward",
+  "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0) - from Commons API extmetadata",
+  "style": "cad",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": false,
+  "notes": "Line-drawing plans of 4 levels of one house on one sheet (multi-plan page); bath/kitchen fixtures drawn. Visual-only: no ground truth (gt_fidelity none/false). Commons description: Floor Plans of Charles Adams - Woodbury Locke House, 178 Central Street, Somerville, MA as it existed in 1993.",
+  "approx_px": [
+   1099,
+   1353
+  ],
+  "gt_fidelity": {
+   "walls": "none",
+   "door_swing": "none",
+   "door_type": false,
+   "windows": false,
+   "rooms": false,
+   "room_types": false,
+   "derived_from": "none (visual-only Wikimedia Commons image; no ground truth)"
+  },
+  "n_walls": 0,
+  "n_doors": 0,
+  "n_doors_with_swing": 0,
+  "n_windows": 0,
+  "n_rooms": 0
+ }
+]

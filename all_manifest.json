@@ -1,0 +1,1939 @@
+[
+ {
+  "file": "swiss-dwellings/realworld_08.jpg",
+  "gt_file": "swiss-dwellings/realworld_08.gt.json",
+  "orig_gt_file": "swiss-dwellings/realworld_08.orig.csv",
+  "source_page": "https://zenodo.org/records/7788422 (doi:10.5281/zenodo.7788422)",
+  "file_url": "https://zenodo.org/api/records/7788422/files/swiss-dwellings-v3.0.0.zip/content (member swiss-dwellings-v3.0.0/geometries.csv) :: floor_id 1588",
+  "author": "Archilyse AG: M. Standfest, M. Franzen, Y. Schroeder, L. Gonzalez Medina, Y. Villanueva Hernandez, J. H. Buck, Y.-L. Tan, M. Niedzwiecka, R. Colmegna - Swiss Dwellings v3.0.0",
+  "license": "CC BY 4.0 (Zenodo record metadata). Image rendered by tools/realworld_convert_msd.py from the CC BY 4.0 geometry (adaptation; attribute Archilyse / Swiss Dwellings)",
+  "style": "synthetic",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": false,
+  "approx_px": [
+   2297,
+   2400
+  ],
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "none",
+   "door_type": false,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "Swiss Dwellings v3.0.0 geometries.csv floor_id=1588 site_id=210; image rendered from the GT geometry (doors drawn as outlined white rectangles in the wall, no swing arc: source has no swing)"
+  },
+  "n_walls": 56,
+  "n_doors": 14,
+  "n_doors_with_swing": 0,
+  "n_windows": 14,
+  "n_rooms": 21,
+  "notes": "Rendered from geometry; building is rotated ~40 deg in the source frame (kept, tests rotation). Source has door/window rectangles only (no hinge/swing/leaf count): doors drawn as outlined white rectangles in the wall (no arc; windows look similar but carry a centre line), type unknown, leaves []. Walls, windows, rooms with types, stairs, scale (mm_per_px) are exact GT. Room-type text is rendered from GT and listed in labels.",
+  "source_dir": "swiss-dwellings",
+  "dataset": "swiss-dwellings",
+  "license_short": "CC BY 4.0",
+  "redistribution": "redistributable-with-attribution",
+  "counts": {
+   "n_walls": 56,
+   "n_doors": 14,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 0,
+   "n_leaves_scorable": 0,
+   "n_doors_swing_into": 0,
+   "n_doors_handedness": 0,
+   "n_windows": 14,
+   "n_rooms": 21,
+   "n_rooms_typed": 21,
+   "n_stairs": 1,
+   "n_walls_with_kind": 0,
+   "door_types": {
+    "unknown": 14
+   },
+   "swing_door_types": {},
+   "window_types": {
+    "unknown": 14
+   },
+   "room_types": {
+    "balcony": 2,
+    "bath": 2,
+    "corridor": 2,
+    "kitchen": 2,
+    "living": 3,
+    "other": 10
+   },
+   "mm_per_px": 10.5086
+  }
+ },
+ {
+  "file": "swiss-dwellings/realworld_09.jpg",
+  "gt_file": "swiss-dwellings/realworld_09.gt.json",
+  "orig_gt_file": "swiss-dwellings/realworld_09.orig.csv",
+  "source_page": "https://zenodo.org/records/7788422 (doi:10.5281/zenodo.7788422)",
+  "file_url": "https://zenodo.org/api/records/7788422/files/swiss-dwellings-v3.0.0.zip/content (member swiss-dwellings-v3.0.0/geometries.csv) :: floor_id 4024",
+  "author": "Archilyse AG: M. Standfest, M. Franzen, Y. Schroeder, L. Gonzalez Medina, Y. Villanueva Hernandez, J. H. Buck, Y.-L. Tan, M. Niedzwiecka, R. Colmegna - Swiss Dwellings v3.0.0",
+  "license": "CC BY 4.0 (Zenodo record metadata). Image rendered by tools/realworld_convert_msd.py from the CC BY 4.0 geometry (adaptation; attribute Archilyse / Swiss Dwellings)",
+  "style": "synthetic",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": false,
+  "approx_px": [
+   2400,
+   1969
+  ],
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "none",
+   "door_type": false,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "Swiss Dwellings v3.0.0 geometries.csv floor_id=4024 site_id=19; image rendered from the GT geometry (doors drawn as outlined white rectangles in the wall, no swing arc: source has no swing)"
+  },
+  "n_walls": 61,
+  "n_doors": 19,
+  "n_doors_with_swing": 0,
+  "n_windows": 15,
+  "n_rooms": 22,
+  "notes": "Rendered from geometry; multi-unit floor with loggias. Source has door/window rectangles only (no hinge/swing/leaf count): doors drawn as outlined white rectangles in the wall (no arc; windows look similar but carry a centre line), type unknown, leaves []. Walls, windows, rooms with types, stairs, scale (mm_per_px) are exact GT. Room-type text is rendered from GT and listed in labels.",
+  "source_dir": "swiss-dwellings",
+  "dataset": "swiss-dwellings",
+  "license_short": "CC BY 4.0",
+  "redistribution": "redistributable-with-attribution",
+  "counts": {
+   "n_walls": 61,
+   "n_doors": 19,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 0,
+   "n_leaves_scorable": 0,
+   "n_doors_swing_into": 0,
+   "n_doors_handedness": 0,
+   "n_windows": 15,
+   "n_rooms": 22,
+   "n_rooms_typed": 22,
+   "n_stairs": 1,
+   "n_walls_with_kind": 0,
+   "door_types": {
+    "unknown": 19
+   },
+   "swing_door_types": {},
+   "window_types": {
+    "unknown": 15
+   },
+   "room_types": {
+    "balcony": 3,
+    "bath": 3,
+    "corridor": 3,
+    "kitchen": 3,
+    "living": 3,
+    "other": 7
+   },
+   "mm_per_px": 11.0639
+  }
+ },
+ {
+  "file": "swiss-dwellings/realworld_10.jpg",
+  "gt_file": "swiss-dwellings/realworld_10.gt.json",
+  "orig_gt_file": "swiss-dwellings/realworld_10.orig.csv",
+  "source_page": "https://zenodo.org/records/7788422 (doi:10.5281/zenodo.7788422)",
+  "file_url": "https://zenodo.org/api/records/7788422/files/swiss-dwellings-v3.0.0.zip/content (member swiss-dwellings-v3.0.0/geometries.csv) :: floor_id 42195",
+  "author": "Archilyse AG: M. Standfest, M. Franzen, Y. Schroeder, L. Gonzalez Medina, Y. Villanueva Hernandez, J. H. Buck, Y.-L. Tan, M. Niedzwiecka, R. Colmegna - Swiss Dwellings v3.0.0",
+  "license": "CC BY 4.0 (Zenodo record metadata). Image rendered by tools/realworld_convert_msd.py from the CC BY 4.0 geometry (adaptation; attribute Archilyse / Swiss Dwellings)",
+  "style": "synthetic",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": false,
+  "approx_px": [
+   2400,
+   2285
+  ],
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "none",
+   "door_type": false,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "Swiss Dwellings v3.0.0 geometries.csv floor_id=42195 site_id=11111; image rendered from the GT geometry (doors drawn as outlined white rectangles in the wall, no swing arc: source has no swing)"
+  },
+  "n_walls": 41,
+  "n_doors": 15,
+  "n_doors_with_swing": 0,
+  "n_windows": 15,
+  "n_rooms": 19,
+  "notes": "Rendered from geometry; rotated building, 3 units. Source has door/window rectangles only (no hinge/swing/leaf count): doors drawn as outlined white rectangles in the wall (no arc; windows look similar but carry a centre line), type unknown, leaves []. Walls, windows, rooms with types, stairs, scale (mm_per_px) are exact GT. Room-type text is rendered from GT and listed in labels.",
+  "source_dir": "swiss-dwellings",
+  "dataset": "swiss-dwellings",
+  "license_short": "CC BY 4.0",
+  "redistribution": "redistributable-with-attribution",
+  "counts": {
+   "n_walls": 41,
+   "n_doors": 15,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 0,
+   "n_leaves_scorable": 0,
+   "n_doors_swing_into": 0,
+   "n_doors_handedness": 0,
+   "n_windows": 15,
+   "n_rooms": 19,
+   "n_rooms_typed": 19,
+   "n_stairs": 1,
+   "n_walls_with_kind": 0,
+   "door_types": {
+    "unknown": 15
+   },
+   "swing_door_types": {},
+   "window_types": {
+    "unknown": 15
+   },
+   "room_types": {
+    "balcony": 2,
+    "bath": 4,
+    "bedroom": 5,
+    "corridor": 2,
+    "kitchen": 2,
+    "living": 2,
+    "other": 2
+   },
+   "mm_per_px": 10.3508
+  }
+ },
+ {
+  "file": "wikimedia-commons/realworld_11.jpg",
+  "gt_file": "wikimedia-commons/realworld_11.gt.json",
+  "orig_gt_file": null,
+  "source_page": "https://commons.wikimedia.org/wiki/File:Garfield_Home_(ca_1885)_NPS,_DSC_(1st_floor).JPG",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Garfield_Home_%28ca_1885%29_NPS%2C_DSC_%281st_floor%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "author": "Paul Newman",
+  "license": "Public domain - from Commons API extmetadata",
+  "style": "scan",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": false,
+  "approx_px": [
+   1346,
+   1340
+  ],
+  "gt_fidelity": {
+   "walls": "none",
+   "door_swing": "none",
+   "door_type": false,
+   "windows": false,
+   "rooms": false,
+   "room_types": false,
+   "derived_from": "none (visual-only Wikimedia Commons image; no ground truth)"
+  },
+  "n_walls": 0,
+  "n_doors": 0,
+  "n_doors_with_swing": 0,
+  "n_windows": 0,
+  "n_rooms": 0,
+  "notes": "Historic US NPS Historic Structures Report plan (Lawnfield, Garfield home), scanned, handwritten-style annotations; kitchen/bath fixtures drawn. Visual-only: no ground truth (gt_fidelity none/false). Commons description: First Floor plan of Lawnfield, James A Garfields Home",
+  "source_dir": "wikimedia-commons",
+  "dataset": "wikimedia-commons",
+  "license_short": "Public domain",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 0,
+   "n_doors": 0,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 0,
+   "n_leaves_scorable": 0,
+   "n_doors_swing_into": 0,
+   "n_doors_handedness": 0,
+   "n_windows": 0,
+   "n_rooms": 0,
+   "n_rooms_typed": 0,
+   "n_stairs": 0,
+   "n_walls_with_kind": 0,
+   "door_types": {},
+   "swing_door_types": {},
+   "window_types": {},
+   "room_types": {},
+   "mm_per_px": null
+  }
+ },
+ {
+  "file": "wikimedia-commons/realworld_13.jpg",
+  "gt_file": "wikimedia-commons/realworld_13.gt.json",
+  "orig_gt_file": null,
+  "source_page": "https://commons.wikimedia.org/wiki/File:2_bhk_Bungalow_floor_plan.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/2_bhk_Bungalow_floor_plan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "author": "Jithurad4539",
+  "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) - from Commons API extmetadata",
+  "style": "marketing",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": true,
+  "approx_px": [
+   2160,
+   2576
+  ],
+  "gt_fidelity": {
+   "walls": "none",
+   "door_swing": "none",
+   "door_type": false,
+   "windows": false,
+   "rooms": false,
+   "room_types": false,
+   "derived_from": "none (visual-only Wikimedia Commons image; no ground truth)"
+  },
+  "n_walls": 0,
+  "n_doors": 0,
+  "n_doors_with_swing": 0,
+  "n_windows": 0,
+  "n_rooms": 0,
+  "notes": "Colour marketing-style 2BHK plan with furniture, tiles and door swings. Visual-only: no ground truth (gt_fidelity none/false). Commons description: 2 bhk Bungalow floor plan",
+  "source_dir": "wikimedia-commons",
+  "dataset": "wikimedia-commons",
+  "license_short": "CC BY-SA 4.0",
+  "redistribution": "redistributable-share-alike",
+  "counts": {
+   "n_walls": 0,
+   "n_doors": 0,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 0,
+   "n_leaves_scorable": 0,
+   "n_doors_swing_into": 0,
+   "n_doors_handedness": 0,
+   "n_windows": 0,
+   "n_rooms": 0,
+   "n_rooms_typed": 0,
+   "n_stairs": 0,
+   "n_walls_with_kind": 0,
+   "door_types": {},
+   "swing_door_types": {},
+   "window_types": {},
+   "room_types": {},
+   "mm_per_px": null
+  }
+ },
+ {
+  "file": "wikimedia-commons/realworld_14.jpg",
+  "gt_file": "wikimedia-commons/realworld_14.gt.json",
+  "orig_gt_file": null,
+  "source_page": "https://commons.wikimedia.org/wiki/File:178_Central_Street_Somerville_MA.png",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/178_Central_Street_Somerville_MA.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "author": "Jameslwoodward",
+  "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0) - from Commons API extmetadata",
+  "style": "cad",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": false,
+  "approx_px": [
+   1099,
+   1353
+  ],
+  "gt_fidelity": {
+   "walls": "none",
+   "door_swing": "none",
+   "door_type": false,
+   "windows": false,
+   "rooms": false,
+   "room_types": false,
+   "derived_from": "none (visual-only Wikimedia Commons image; no ground truth)"
+  },
+  "n_walls": 0,
+  "n_doors": 0,
+  "n_doors_with_swing": 0,
+  "n_windows": 0,
+  "n_rooms": 0,
+  "notes": "Line-drawing plans of 4 levels of one house on one sheet (multi-plan page); bath/kitchen fixtures drawn. Visual-only: no ground truth (gt_fidelity none/false). Commons description: Floor Plans of Charles Adams - Woodbury Locke House, 178 Central Street, Somerville, MA as it existed in 1993.",
+  "source_dir": "wikimedia-commons",
+  "dataset": "wikimedia-commons",
+  "license_short": "CC BY-SA 3.0",
+  "redistribution": "redistributable-share-alike",
+  "counts": {
+   "n_walls": 0,
+   "n_doors": 0,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 0,
+   "n_leaves_scorable": 0,
+   "n_doors_swing_into": 0,
+   "n_doors_handedness": 0,
+   "n_windows": 0,
+   "n_rooms": 0,
+   "n_rooms_typed": 0,
+   "n_stairs": 0,
+   "n_walls_with_kind": 0,
+   "door_types": {},
+   "swing_door_types": {},
+   "window_types": {},
+   "room_types": {},
+   "mm_per_px": null
+  }
+ },
+ {
+  "file": "synthetic/synthetic_00.jpg",
+  "gt_file": "synthetic/synthetic_00.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": false,
+  "has_text": false,
+  "has_color": false,
+  "approx_px": "830x1000",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 0 seed 20261013)"
+  },
+  "n_walls": 6,
+  "n_doors": 3,
+  "n_doors_with_swing": 3,
+  "n_windows": 8,
+  "n_rooms": 3,
+  "notes": "seed 20261013; 3 rooms; rectangular; 0 diagonal wall(s); corridor=False; walls=solid; extras=[]; degradations: none (JPEG q95); openings by type: {'door:single': 3, 'window:unknown': 8}; plain openings (category=opening): 0. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 6,
+   "n_doors": 3,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 3,
+   "n_leaves_scorable": 3,
+   "n_doors_swing_into": 3,
+   "n_doors_handedness": 3,
+   "n_windows": 8,
+   "n_rooms": 3,
+   "n_rooms_typed": 3,
+   "n_stairs": 0,
+   "n_walls_with_kind": 6,
+   "door_types": {
+    "single": 3
+   },
+   "swing_door_types": {
+    "single": 3
+   },
+   "window_types": {
+    "unknown": 8
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 1,
+    "living": 1
+   },
+   "mm_per_px": 10.57
+  }
+ },
+ {
+  "file": "synthetic/synthetic_01.jpg",
+  "gt_file": "synthetic/synthetic_01.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": false,
+  "has_text": false,
+  "has_color": false,
+  "approx_px": "1200x1023",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 1 seed 20268932)"
+  },
+  "n_walls": 7,
+  "n_doors": 4,
+  "n_doors_with_swing": 3,
+  "n_windows": 7,
+  "n_rooms": 4,
+  "notes": "seed 20268932; 4 rooms; rectangular; 0 diagonal wall(s); corridor=False; walls=hollow; extras=[]; degradations: none (JPEG q95); openings by type: {'door:single': 3, 'door:pocket': 1, 'window:unknown': 7}; plain openings (category=opening): 0. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 7,
+   "n_doors": 4,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 3,
+   "n_leaves_scorable": 3,
+   "n_doors_swing_into": 3,
+   "n_doors_handedness": 3,
+   "n_windows": 7,
+   "n_rooms": 4,
+   "n_rooms_typed": 4,
+   "n_stairs": 0,
+   "n_walls_with_kind": 7,
+   "door_types": {
+    "pocket": 1,
+    "single": 3
+   },
+   "swing_door_types": {
+    "single": 3
+   },
+   "window_types": {
+    "unknown": 7
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 1,
+    "kitchen": 1,
+    "living": 1
+   },
+   "mm_per_px": 8.992
+  }
+ },
+ {
+  "file": "synthetic/synthetic_02.jpg",
+  "gt_file": "synthetic/synthetic_02.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": false,
+  "has_text": true,
+  "has_color": false,
+  "approx_px": "1400x929",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 2 seed 20276851)"
+  },
+  "n_walls": 10,
+  "n_doors": 6,
+  "n_doors_with_swing": 3,
+  "n_windows": 9,
+  "n_rooms": 5,
+  "notes": "seed 20276851; 5 rooms; L-shape; 0 diagonal wall(s); corridor=False; walls=hatched; extras=[]; degradations: none (JPEG q95); openings by type: {'door:single': 3, 'door:sliding': 2, 'door:pocket': 1, 'window:unknown': 9}; plain openings (category=opening): 0. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 10,
+   "n_doors": 6,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 3,
+   "n_leaves_scorable": 3,
+   "n_doors_swing_into": 3,
+   "n_doors_handedness": 3,
+   "n_windows": 9,
+   "n_rooms": 5,
+   "n_rooms_typed": 5,
+   "n_stairs": 0,
+   "n_walls_with_kind": 10,
+   "door_types": {
+    "pocket": 1,
+    "single": 3,
+    "sliding": 2
+   },
+   "swing_door_types": {
+    "single": 3
+   },
+   "window_types": {
+    "unknown": 9
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 2,
+    "kitchen": 1,
+    "living": 1
+   },
+   "mm_per_px": 10.4
+  }
+ },
+ {
+  "file": "synthetic/synthetic_03.jpg",
+  "gt_file": "synthetic/synthetic_03.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": false,
+  "has_text": true,
+  "has_color": false,
+  "approx_px": "1223x1601",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 3 seed 20284770)"
+  },
+  "n_walls": 9,
+  "n_doors": 6,
+  "n_doors_with_swing": 5,
+  "n_windows": 10,
+  "n_rooms": 5,
+  "notes": "seed 20284770; 5 rooms; rectangular; 1 diagonal wall(s); corridor=True; walls=solid; extras=[]; degradations: none (JPEG q95); openings by type: {'door:single': 5, 'door:pocket': 1, 'window:unknown': 10}; plain openings (category=opening): 0. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 9,
+   "n_doors": 6,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 5,
+   "n_leaves_scorable": 5,
+   "n_doors_swing_into": 5,
+   "n_doors_handedness": 5,
+   "n_windows": 10,
+   "n_rooms": 5,
+   "n_rooms_typed": 5,
+   "n_stairs": 0,
+   "n_walls_with_kind": 9,
+   "door_types": {
+    "pocket": 1,
+    "single": 5
+   },
+   "swing_door_types": {
+    "single": 5
+   },
+   "window_types": {
+    "unknown": 10
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 1,
+    "corridor": 1,
+    "kitchen": 1,
+    "living": 1
+   },
+   "mm_per_px": 11.381
+  }
+ },
+ {
+  "file": "synthetic/synthetic_04.jpg",
+  "gt_file": "synthetic/synthetic_04.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": false,
+  "has_text": true,
+  "has_color": false,
+  "approx_px": "1800x1604",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 4 seed 20292689)"
+  },
+  "n_walls": 11,
+  "n_doors": 6,
+  "n_doors_with_swing": 6,
+  "n_windows": 10,
+  "n_rooms": 6,
+  "notes": "seed 20292689; 6 rooms; L-shape; 0 diagonal wall(s); corridor=True; walls=hollow; extras=['scalebar']; degradations: none (JPEG q95); openings by type: {'door:single': 6, 'window:unknown': 10}; plain openings (category=opening): 0. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 11,
+   "n_doors": 6,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 6,
+   "n_leaves_scorable": 6,
+   "n_doors_swing_into": 6,
+   "n_doors_handedness": 6,
+   "n_windows": 10,
+   "n_rooms": 6,
+   "n_rooms_typed": 6,
+   "n_stairs": 0,
+   "n_walls_with_kind": 11,
+   "door_types": {
+    "single": 6
+   },
+   "swing_door_types": {
+    "single": 6
+   },
+   "window_types": {
+    "unknown": 10
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 2,
+    "corridor": 1,
+    "kitchen": 1,
+    "living": 1
+   },
+   "mm_per_px": 10.956
+  }
+ },
+ {
+  "file": "synthetic/synthetic_05.jpg",
+  "gt_file": "synthetic/synthetic_05.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": true,
+  "has_text": false,
+  "has_color": false,
+  "approx_px": "1154x1501",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 5 seed 20300608)"
+  },
+  "n_walls": 9,
+  "n_doors": 8,
+  "n_doors_with_swing": 7,
+  "n_windows": 10,
+  "n_rooms": 6,
+  "notes": "seed 20300608; 6 rooms; rectangular; 0 diagonal wall(s); corridor=False; walls=gray; extras=[]; degradations: none (JPEG q95); openings by type: {'door:single': 6, 'door:pocket': 1, 'door:double': 1, 'window:unknown': 10}; plain openings (category=opening): 0. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 9,
+   "n_doors": 8,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 7,
+   "n_leaves_scorable": 8,
+   "n_doors_swing_into": 7,
+   "n_doors_handedness": 6,
+   "n_windows": 10,
+   "n_rooms": 6,
+   "n_rooms_typed": 6,
+   "n_stairs": 0,
+   "n_walls_with_kind": 9,
+   "door_types": {
+    "double": 1,
+    "pocket": 1,
+    "single": 6
+   },
+   "swing_door_types": {
+    "double": 1,
+    "single": 6
+   },
+   "window_types": {
+    "unknown": 10
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 3,
+    "kitchen": 1,
+    "living": 1
+   },
+   "mm_per_px": 8.813
+  }
+ },
+ {
+  "file": "synthetic/synthetic_06.jpg",
+  "gt_file": "synthetic/synthetic_06.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": false,
+  "approx_px": "1485x2000",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 6 seed 20308527)"
+  },
+  "n_walls": 12,
+  "n_doors": 7,
+  "n_doors_with_swing": 5,
+  "n_windows": 11,
+  "n_rooms": 7,
+  "notes": "seed 20308527; 7 rooms; L-shape; 0 diagonal wall(s); corridor=True; walls=hatched; extras=['tiles']; degradations: none (JPEG q95); openings by type: {'door:single': 5, 'door:sliding': 2, 'opening:none': 1, 'window:unknown': 11}; plain openings (category=opening): 1. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 12,
+   "n_doors": 7,
+   "n_plain_openings": 1,
+   "n_doors_with_swing": 5,
+   "n_leaves_scorable": 5,
+   "n_doors_swing_into": 5,
+   "n_doors_handedness": 5,
+   "n_windows": 11,
+   "n_rooms": 7,
+   "n_rooms_typed": 7,
+   "n_stairs": 0,
+   "n_walls_with_kind": 12,
+   "door_types": {
+    "single": 5,
+    "sliding": 2
+   },
+   "swing_door_types": {
+    "single": 5
+   },
+   "window_types": {
+    "unknown": 11
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 3,
+    "corridor": 1,
+    "kitchen": 1,
+    "living": 1
+   },
+   "mm_per_px": 7.565
+  }
+ },
+ {
+  "file": "synthetic/synthetic_07.jpg",
+  "gt_file": "synthetic/synthetic_07.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": false,
+  "approx_px": "2200x1820",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 7 seed 20316446)"
+  },
+  "n_walls": 12,
+  "n_doors": 8,
+  "n_doors_with_swing": 5,
+  "n_windows": 11,
+  "n_rooms": 7,
+  "notes": "seed 20316446; 7 rooms; rectangular; 2 diagonal wall(s); corridor=True; walls=solid; extras=['scalebar', 'north']; degradations: none (JPEG q95); openings by type: {'door:sliding': 3, 'door:single': 5, 'window:unknown': 11}; plain openings (category=opening): 0. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 12,
+   "n_doors": 8,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 5,
+   "n_leaves_scorable": 5,
+   "n_doors_swing_into": 5,
+   "n_doors_handedness": 5,
+   "n_windows": 11,
+   "n_rooms": 7,
+   "n_rooms_typed": 7,
+   "n_stairs": 0,
+   "n_walls_with_kind": 12,
+   "door_types": {
+    "single": 5,
+    "sliding": 3
+   },
+   "swing_door_types": {
+    "single": 5
+   },
+   "window_types": {
+    "unknown": 11
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 3,
+    "corridor": 1,
+    "kitchen": 1,
+    "living": 1
+   },
+   "mm_per_px": 8.932
+  }
+ },
+ {
+  "file": "synthetic/synthetic_08.jpg",
+  "gt_file": "synthetic/synthetic_08.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": false,
+  "approx_px": "2008x2400",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 8 seed 20324365)"
+  },
+  "n_walls": 14,
+  "n_doors": 10,
+  "n_doors_with_swing": 9,
+  "n_windows": 10,
+  "n_rooms": 8,
+  "notes": "seed 20324365; 8 rooms; L-shape; 1 diagonal wall(s); corridor=True; walls=hollow; extras=['stairs', 'area']; degradations: none (JPEG q95); openings by type: {'door:single': 8, 'door:sliding': 1, 'opening:none': 1, 'door:double': 1, 'window:unknown': 10}; plain openings (category=opening): 1. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 14,
+   "n_doors": 10,
+   "n_plain_openings": 1,
+   "n_doors_with_swing": 9,
+   "n_leaves_scorable": 10,
+   "n_doors_swing_into": 9,
+   "n_doors_handedness": 8,
+   "n_windows": 10,
+   "n_rooms": 8,
+   "n_rooms_typed": 8,
+   "n_stairs": 1,
+   "n_walls_with_kind": 14,
+   "door_types": {
+    "double": 1,
+    "single": 8,
+    "sliding": 1
+   },
+   "swing_door_types": {
+    "double": 1,
+    "single": 8
+   },
+   "window_types": {
+    "unknown": 10
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 4,
+    "corridor": 1,
+    "kitchen": 1,
+    "living": 1
+   },
+   "mm_per_px": 8.417
+  }
+ },
+ {
+  "file": "synthetic/synthetic_09.jpg",
+  "gt_file": "synthetic/synthetic_09.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": false,
+  "approx_px": "2349x2600",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 9 seed 20332284)"
+  },
+  "n_walls": 11,
+  "n_doors": 11,
+  "n_doors_with_swing": 8,
+  "n_windows": 11,
+  "n_rooms": 8,
+  "notes": "seed 20332284; 8 rooms; rectangular; 0 diagonal wall(s); corridor=True; walls=hatched; extras=['tiles', 'axisgrid']; degradations: none (JPEG q95); openings by type: {'door:single': 8, 'door:sliding': 2, 'door:pocket': 1, 'window:unknown': 11}; plain openings (category=opening): 0. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 11,
+   "n_doors": 11,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 8,
+   "n_leaves_scorable": 8,
+   "n_doors_swing_into": 8,
+   "n_doors_handedness": 8,
+   "n_windows": 11,
+   "n_rooms": 8,
+   "n_rooms_typed": 8,
+   "n_stairs": 0,
+   "n_walls_with_kind": 11,
+   "door_types": {
+    "pocket": 1,
+    "single": 8,
+    "sliding": 2
+   },
+   "swing_door_types": {
+    "single": 8
+   },
+   "window_types": {
+    "unknown": 11
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 4,
+    "corridor": 1,
+    "kitchen": 1,
+    "living": 1
+   },
+   "mm_per_px": 8.362
+  }
+ },
+ {
+  "file": "synthetic/synthetic_10.jpg",
+  "gt_file": "synthetic/synthetic_10.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": true,
+  "approx_px": "2800x2465",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 10 seed 20340203)"
+  },
+  "n_walls": 14,
+  "n_doors": 10,
+  "n_doors_with_swing": 9,
+  "n_windows": 11,
+  "n_rooms": 9,
+  "notes": "seed 20340203; 9 rooms; L-shape; 0 diagonal wall(s); corridor=True; walls=solid; extras=['color', 'area', 'title']; degradations: none (JPEG q95); openings by type: {'door:single': 8, 'door:sliding': 1, 'door:double': 1, 'window:unknown': 11}; plain openings (category=opening): 0. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 14,
+   "n_doors": 10,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 9,
+   "n_leaves_scorable": 10,
+   "n_doors_swing_into": 9,
+   "n_doors_handedness": 8,
+   "n_windows": 11,
+   "n_rooms": 9,
+   "n_rooms_typed": 9,
+   "n_stairs": 0,
+   "n_walls_with_kind": 14,
+   "door_types": {
+    "double": 1,
+    "single": 8,
+    "sliding": 1
+   },
+   "swing_door_types": {
+    "double": 1,
+    "single": 8
+   },
+   "window_types": {
+    "unknown": 11
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 4,
+    "corridor": 1,
+    "kitchen": 1,
+    "living": 1,
+    "other": 1
+   },
+   "mm_per_px": 7.611
+  }
+ },
+ {
+  "file": "synthetic/synthetic_11.jpg",
+  "gt_file": "synthetic/synthetic_11.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": false,
+  "approx_px": "2236x3200",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 11 seed 20348122)"
+  },
+  "n_walls": 13,
+  "n_doors": 10,
+  "n_doors_with_swing": 10,
+  "n_windows": 11,
+  "n_rooms": 9,
+  "notes": "seed 20348122; 9 rooms; rectangular; 1 diagonal wall(s); corridor=True; walls=hollow; extras=['graphpaper', 'stairs', 'scalebar']; degradations: none (JPEG q95); openings by type: {'door:single': 8, 'door:double': 2, 'window:unknown': 11}; plain openings (category=opening): 0. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 13,
+   "n_doors": 10,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 10,
+   "n_leaves_scorable": 12,
+   "n_doors_swing_into": 10,
+   "n_doors_handedness": 8,
+   "n_windows": 11,
+   "n_rooms": 9,
+   "n_rooms_typed": 9,
+   "n_stairs": 1,
+   "n_walls_with_kind": 13,
+   "door_types": {
+    "double": 2,
+    "single": 8
+   },
+   "swing_door_types": {
+    "double": 2,
+    "single": 8
+   },
+   "window_types": {
+    "unknown": 11
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 4,
+    "corridor": 1,
+    "kitchen": 1,
+    "living": 1,
+    "other": 1
+   },
+   "mm_per_px": 7.416
+  }
+ },
+ {
+  "file": "synthetic/synthetic_12.jpg",
+  "gt_file": "synthetic/synthetic_12.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": false,
+  "has_text": true,
+  "has_color": false,
+  "approx_px": "741x1000",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 12 seed 20356041)"
+  },
+  "n_walls": 6,
+  "n_doors": 3,
+  "n_doors_with_swing": 3,
+  "n_windows": 6,
+  "n_rooms": 3,
+  "notes": "seed 20356041; 3 rooms; rectangular; 0 diagonal wall(s); corridor=False; walls=solid; extras=[]; degradations: jpeg=70, rot=1.0; openings by type: {'door:single': 3, 'window:unknown': 6}; plain openings (category=opening): 0. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 6,
+   "n_doors": 3,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 3,
+   "n_leaves_scorable": 3,
+   "n_doors_swing_into": 3,
+   "n_doors_handedness": 3,
+   "n_windows": 6,
+   "n_rooms": 3,
+   "n_rooms_typed": 3,
+   "n_stairs": 0,
+   "n_walls_with_kind": 6,
+   "door_types": {
+    "single": 3
+   },
+   "swing_door_types": {
+    "single": 3
+   },
+   "window_types": {
+    "unknown": 6
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 1,
+    "living": 1
+   },
+   "mm_per_px": 10.41
+  }
+ },
+ {
+  "file": "synthetic/synthetic_13.jpg",
+  "gt_file": "synthetic/synthetic_13.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": false,
+  "has_text": true,
+  "has_color": false,
+  "approx_px": "1072x1301",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 13 seed 20363960)"
+  },
+  "n_walls": 9,
+  "n_doors": 3,
+  "n_doors_with_swing": 2,
+  "n_windows": 8,
+  "n_rooms": 4,
+  "notes": "seed 20363960; 4 rooms; L-shape; 0 diagonal wall(s); corridor=False; walls=hollow; extras=[]; degradations: jpeg=66, blur=0.6; openings by type: {'opening:none': 1, 'door:single': 2, 'door:pocket': 1, 'window:unknown': 8}; plain openings (category=opening): 1. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 9,
+   "n_doors": 3,
+   "n_plain_openings": 1,
+   "n_doors_with_swing": 2,
+   "n_leaves_scorable": 2,
+   "n_doors_swing_into": 2,
+   "n_doors_handedness": 2,
+   "n_windows": 8,
+   "n_rooms": 4,
+   "n_rooms_typed": 4,
+   "n_stairs": 0,
+   "n_walls_with_kind": 9,
+   "door_types": {
+    "pocket": 1,
+    "single": 2
+   },
+   "swing_door_types": {
+    "single": 2
+   },
+   "window_types": {
+    "unknown": 8
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 1,
+    "kitchen": 1,
+    "living": 1
+   },
+   "mm_per_px": 12.669
+  }
+ },
+ {
+  "file": "synthetic/synthetic_14.jpg",
+  "gt_file": "synthetic/synthetic_14.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": false,
+  "approx_px": "1601x1345",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 14 seed 20371879)"
+  },
+  "n_walls": 9,
+  "n_doors": 6,
+  "n_doors_with_swing": 6,
+  "n_windows": 8,
+  "n_rooms": 5,
+  "notes": "seed 20371879; 5 rooms; rectangular; 1 diagonal wall(s); corridor=False; walls=hatched; extras=[]; degradations: jpeg=63, rot=-1.5, noise=4; openings by type: {'door:single': 5, 'door:double': 1, 'window:unknown': 8}; plain openings (category=opening): 0. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 9,
+   "n_doors": 6,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 6,
+   "n_leaves_scorable": 7,
+   "n_doors_swing_into": 6,
+   "n_doors_handedness": 5,
+   "n_windows": 8,
+   "n_rooms": 5,
+   "n_rooms_typed": 5,
+   "n_stairs": 0,
+   "n_walls_with_kind": 9,
+   "door_types": {
+    "double": 1,
+    "single": 5
+   },
+   "swing_door_types": {
+    "double": 1,
+    "single": 5
+   },
+   "window_types": {
+    "unknown": 8
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 2,
+    "kitchen": 1,
+    "living": 1
+   },
+   "mm_per_px": 10.387
+  }
+ },
+ {
+  "file": "synthetic/synthetic_15.jpg",
+  "gt_file": "synthetic/synthetic_15.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": false,
+  "approx_px": "1335x1800",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 15 seed 20379798)"
+  },
+  "n_walls": 11,
+  "n_doors": 4,
+  "n_doors_with_swing": 4,
+  "n_windows": 10,
+  "n_rooms": 6,
+  "notes": "seed 20379798; 6 rooms; L-shape; 0 diagonal wall(s); corridor=True; walls=gray; extras=['tiles']; degradations: jpeg=60, tint=True, light=0.15; openings by type: {'door:single': 4, 'opening:none': 2, 'window:unknown': 10}; plain openings (category=opening): 2. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 11,
+   "n_doors": 4,
+   "n_plain_openings": 2,
+   "n_doors_with_swing": 4,
+   "n_leaves_scorable": 4,
+   "n_doors_swing_into": 4,
+   "n_doors_handedness": 4,
+   "n_windows": 10,
+   "n_rooms": 6,
+   "n_rooms_typed": 6,
+   "n_stairs": 0,
+   "n_walls_with_kind": 11,
+   "door_types": {
+    "single": 4
+   },
+   "swing_door_types": {
+    "single": 4
+   },
+   "window_types": {
+    "unknown": 10
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 2,
+    "corridor": 1,
+    "kitchen": 1,
+    "living": 1
+   },
+   "mm_per_px": 11.167
+  }
+ },
+ {
+  "file": "synthetic/synthetic_16.jpg",
+  "gt_file": "synthetic/synthetic_16.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": true,
+  "approx_px": "1706x2000",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 16 seed 20387717)"
+  },
+  "n_walls": 9,
+  "n_doors": 7,
+  "n_doors_with_swing": 4,
+  "n_windows": 9,
+  "n_rooms": 6,
+  "notes": "seed 20387717; 6 rooms; rectangular; 0 diagonal wall(s); corridor=True; walls=solid; extras=['color']; degradations: jpeg=58, rot=2.0, blur=0.8, noise=5; openings by type: {'door:double': 1, 'door:sliding': 2, 'door:pocket': 1, 'door:single': 3, 'window:unknown': 9}; plain openings (category=opening): 0. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 9,
+   "n_doors": 7,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 4,
+   "n_leaves_scorable": 5,
+   "n_doors_swing_into": 4,
+   "n_doors_handedness": 3,
+   "n_windows": 9,
+   "n_rooms": 6,
+   "n_rooms_typed": 6,
+   "n_stairs": 0,
+   "n_walls_with_kind": 9,
+   "door_types": {
+    "double": 1,
+    "pocket": 1,
+    "single": 3,
+    "sliding": 2
+   },
+   "swing_door_types": {
+    "double": 1,
+    "single": 3
+   },
+   "window_types": {
+    "unknown": 9
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 2,
+    "corridor": 1,
+    "kitchen": 1,
+    "living": 1
+   },
+   "mm_per_px": 9.345
+  }
+ },
+ {
+  "file": "synthetic/synthetic_17.jpg",
+  "gt_file": "synthetic/synthetic_17.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": false,
+  "approx_px": "1673x2201",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 17 seed 20395636)"
+  },
+  "n_walls": 13,
+  "n_doors": 8,
+  "n_doors_with_swing": 5,
+  "n_windows": 11,
+  "n_rooms": 7,
+  "notes": "seed 20395636; 7 rooms; L-shape; 1 diagonal wall(s); corridor=True; walls=hollow; extras=['stairs', 'title']; degradations: jpeg=55, tint=True, light=0.2, noise=6; openings by type: {'door:single': 5, 'door:sliding': 2, 'door:pocket': 1, 'window:unknown': 11}; plain openings (category=opening): 0. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 13,
+   "n_doors": 8,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 5,
+   "n_leaves_scorable": 5,
+   "n_doors_swing_into": 5,
+   "n_doors_handedness": 5,
+   "n_windows": 11,
+   "n_rooms": 7,
+   "n_rooms_typed": 7,
+   "n_stairs": 1,
+   "n_walls_with_kind": 13,
+   "door_types": {
+    "pocket": 1,
+    "single": 5,
+    "sliding": 2
+   },
+   "swing_door_types": {
+    "single": 5
+   },
+   "window_types": {
+    "unknown": 11
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 3,
+    "corridor": 1,
+    "kitchen": 1,
+    "living": 1
+   },
+   "mm_per_px": 10.045
+  }
+ },
+ {
+  "file": "synthetic/synthetic_18.jpg",
+  "gt_file": "synthetic/synthetic_18.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": false,
+  "approx_px": "1834x2401",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 18 seed 20403555)"
+  },
+  "n_walls": 12,
+  "n_doors": 9,
+  "n_doors_with_swing": 8,
+  "n_windows": 9,
+  "n_rooms": 7,
+  "notes": "seed 20403555; 7 rooms; rectangular; 2 diagonal wall(s); corridor=True; walls=hatched; extras=['axisgrid', 'area']; degradations: jpeg=52, rot=-2.5, blur=1.0, tint=True; openings by type: {'door:double': 2, 'door:single': 6, 'door:pocket': 1, 'window:unknown': 9}; plain openings (category=opening): 0. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 12,
+   "n_doors": 9,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 8,
+   "n_leaves_scorable": 10,
+   "n_doors_swing_into": 8,
+   "n_doors_handedness": 6,
+   "n_windows": 9,
+   "n_rooms": 7,
+   "n_rooms_typed": 7,
+   "n_stairs": 0,
+   "n_walls_with_kind": 12,
+   "door_types": {
+    "double": 2,
+    "pocket": 1,
+    "single": 6
+   },
+   "swing_door_types": {
+    "double": 2,
+    "single": 6
+   },
+   "window_types": {
+    "unknown": 9
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 3,
+    "corridor": 1,
+    "kitchen": 1,
+    "living": 1
+   },
+   "mm_per_px": 9.708
+  }
+ },
+ {
+  "file": "synthetic/synthetic_19.jpg",
+  "gt_file": "synthetic/synthetic_19.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": false,
+  "approx_px": "1546x2000",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 19 seed 20411474)"
+  },
+  "n_walls": 13,
+  "n_doors": 8,
+  "n_doors_with_swing": 7,
+  "n_windows": 13,
+  "n_rooms": 8,
+  "notes": "seed 20411474; 8 rooms; L-shape; 0 diagonal wall(s); corridor=True; walls=solid; extras=['graphpaper', 'tiles']; degradations: jpeg=50, rot=3.0, noise=8, light=0.25; openings by type: {'door:single': 7, 'door:pocket': 1, 'window:unknown': 13}; plain openings (category=opening): 0. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 13,
+   "n_doors": 8,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 7,
+   "n_leaves_scorable": 7,
+   "n_doors_swing_into": 7,
+   "n_doors_handedness": 7,
+   "n_windows": 13,
+   "n_rooms": 8,
+   "n_rooms_typed": 8,
+   "n_stairs": 0,
+   "n_walls_with_kind": 13,
+   "door_types": {
+    "pocket": 1,
+    "single": 7
+   },
+   "swing_door_types": {
+    "single": 7
+   },
+   "window_types": {
+    "unknown": 13
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 4,
+    "corridor": 1,
+    "kitchen": 1,
+    "living": 1
+   },
+   "mm_per_px": 10.23
+  }
+ },
+ {
+  "file": "synthetic/synthetic_20.jpg",
+  "gt_file": "synthetic/synthetic_20.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": false,
+  "approx_px": "1600x1325",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 20 seed 20419393)"
+  },
+  "n_walls": 11,
+  "n_doors": 8,
+  "n_doors_with_swing": 7,
+  "n_windows": 12,
+  "n_rooms": 8,
+  "notes": "seed 20419393; 8 rooms; rectangular; 0 diagonal wall(s); corridor=True; walls=hollow; extras=['scalebar', 'north', 'title']; degradations: jpeg=48, blur=1.1, tint=True, light=0.3, specks=True; openings by type: {'opening:none': 1, 'door:pocket': 1, 'door:single': 7, 'window:unknown': 12}; plain openings (category=opening): 1. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 11,
+   "n_doors": 8,
+   "n_plain_openings": 1,
+   "n_doors_with_swing": 7,
+   "n_leaves_scorable": 7,
+   "n_doors_swing_into": 7,
+   "n_doors_handedness": 7,
+   "n_windows": 12,
+   "n_rooms": 8,
+   "n_rooms_typed": 8,
+   "n_stairs": 0,
+   "n_walls_with_kind": 11,
+   "door_types": {
+    "pocket": 1,
+    "single": 7
+   },
+   "swing_door_types": {
+    "single": 7
+   },
+   "window_types": {
+    "unknown": 12
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 4,
+    "corridor": 1,
+    "kitchen": 1,
+    "living": 1
+   },
+   "mm_per_px": 13.05
+  }
+ },
+ {
+  "file": "synthetic/synthetic_21.jpg",
+  "gt_file": "synthetic/synthetic_21.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": false,
+  "approx_px": "1401x1114",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 21 seed 20427312)"
+  },
+  "n_walls": 15,
+  "n_doors": 10,
+  "n_doors_with_swing": 6,
+  "n_windows": 12,
+  "n_rooms": 9,
+  "notes": "seed 20427312; 9 rooms; L-shape; 1 diagonal wall(s); corridor=True; walls=gray; extras=['stairs', 'tiles', 'area']; degradations: jpeg=45, rot=-3.5, blur=1.2, noise=9, tint=True, fade=0.8; openings by type: {'door:pocket': 3, 'door:single': 5, 'door:double': 1, 'door:sliding': 1, 'window:unknown': 12}; plain openings (category=opening): 0. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 15,
+   "n_doors": 10,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 6,
+   "n_leaves_scorable": 7,
+   "n_doors_swing_into": 6,
+   "n_doors_handedness": 5,
+   "n_windows": 12,
+   "n_rooms": 9,
+   "n_rooms_typed": 9,
+   "n_stairs": 1,
+   "n_walls_with_kind": 15,
+   "door_types": {
+    "double": 1,
+    "pocket": 3,
+    "single": 5,
+    "sliding": 1
+   },
+   "swing_door_types": {
+    "double": 1,
+    "single": 5
+   },
+   "window_types": {
+    "unknown": 12
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 4,
+    "corridor": 1,
+    "kitchen": 1,
+    "living": 1,
+    "other": 1
+   },
+   "mm_per_px": 16.064
+  }
+ },
+ {
+  "file": "synthetic/synthetic_22.jpg",
+  "gt_file": "synthetic/synthetic_22.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": true,
+  "approx_px": "1100x896",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 22 seed 20435231)"
+  },
+  "n_walls": 8,
+  "n_doors": 5,
+  "n_doors_with_swing": 2,
+  "n_windows": 10,
+  "n_rooms": 5,
+  "notes": "seed 20435231; 5 rooms; rectangular; 0 diagonal wall(s); corridor=False; walls=hatched; extras=['color', 'graphpaper']; degradations: jpeg=42, rot=4.0, noise=10, light=0.35, specks=True, tint=True; openings by type: {'door:single': 2, 'door:sliding': 2, 'door:pocket': 1, 'opening:none': 1, 'window:unknown': 10}; plain openings (category=opening): 1. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 8,
+   "n_doors": 5,
+   "n_plain_openings": 1,
+   "n_doors_with_swing": 2,
+   "n_leaves_scorable": 2,
+   "n_doors_swing_into": 2,
+   "n_doors_handedness": 2,
+   "n_windows": 10,
+   "n_rooms": 5,
+   "n_rooms_typed": 5,
+   "n_stairs": 0,
+   "n_walls_with_kind": 8,
+   "door_types": {
+    "pocket": 1,
+    "single": 2,
+    "sliding": 2
+   },
+   "swing_door_types": {
+    "single": 2
+   },
+   "window_types": {
+    "unknown": 10
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 2,
+    "kitchen": 1,
+    "living": 1
+   },
+   "mm_per_px": 15.864
+  }
+ },
+ {
+  "file": "synthetic/synthetic_23.jpg",
+  "gt_file": "synthetic/synthetic_23.gt.json",
+  "orig_gt_file": null,
+  "source_page": "local generator: tools/synthetic_gen.py (this project; see testdata/synthetic/GENERATOR.md)",
+  "file_url": null,
+  "author": "plan-test synthetic generator (own work)",
+  "license": "Own synthetic data, unrestricted (no third-party content)",
+  "style": "synthetic",
+  "has_furniture": true,
+  "has_text": true,
+  "has_color": false,
+  "approx_px": "901x734",
+  "gt_fidelity": {
+   "walls": "full",
+   "door_swing": "full",
+   "door_type": true,
+   "windows": true,
+   "rooms": true,
+   "room_types": true,
+   "derived_from": "synthetic (tools/synthetic_gen.py index 23 seed 20443150)"
+  },
+  "n_walls": 16,
+  "n_doors": 10,
+  "n_doors_with_swing": 8,
+  "n_windows": 12,
+  "n_rooms": 9,
+  "notes": "seed 20443150; 9 rooms; L-shape; 2 diagonal wall(s); corridor=True; walls=solid; extras=['axisgrid', 'stairs', 'title', 'scalebar']; degradations: jpeg=40, rot=-4.0, blur=1.4, noise=12, tint=True, light=0.4, fade=0.75, specks=True; openings by type: {'door:single': 7, 'door:sliding': 1, 'door:pocket': 1, 'door:double': 1, 'window:unknown': 12}; plain openings (category=opening): 0. Handedness: schema/US letters viewed from the side the door swings away from (hinge left=LH, right=RH). Hinge/closed_tip on the wall face of the swing side; jambs on the wall centerline. Text glyphs: OpenCV 5.0 putText renders the FONT_HERSHEY_* ids with fonts embedded in the OpenCV binary (Rubik, SIL OFL 1.1; WenQuanYi Micro Hei also embedded); OFL places no restriction on images rendered with the font.",
+  "source_dir": "synthetic",
+  "dataset": "synthetic",
+  "license_short": "own synthetic, unrestricted",
+  "redistribution": "redistributable",
+  "counts": {
+   "n_walls": 16,
+   "n_doors": 10,
+   "n_plain_openings": 0,
+   "n_doors_with_swing": 8,
+   "n_leaves_scorable": 9,
+   "n_doors_swing_into": 8,
+   "n_doors_handedness": 7,
+   "n_windows": 12,
+   "n_rooms": 9,
+   "n_rooms_typed": 9,
+   "n_stairs": 1,
+   "n_walls_with_kind": 16,
+   "door_types": {
+    "double": 1,
+    "pocket": 1,
+    "single": 7,
+    "sliding": 1
+   },
+   "swing_door_types": {
+    "double": 1,
+    "single": 7
+   },
+   "window_types": {
+    "unknown": 12
+   },
+   "room_types": {
+    "bath": 1,
+    "bedroom": 4,
+    "corridor": 1,
+    "kitchen": 1,
+    "living": 1,
+    "other": 1
+   },
+   "mm_per_px": 29.211
+  }
+ }
+]

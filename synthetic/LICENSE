@@ -1,0 +1,5 @@
+The synthetic floor plans in this folder (synthetic_00 to synthetic_23: the images, the ground truth,
+manifest.json and GENERATOR.md) are our own procedurally generated work. They contain no third-party content.
+
+To the extent possible under law, the bldg contributors have waived all copyright and related or neighboring
+rights to them under CC0 1.0 Universal: https://creativecommons.org/publicdomain/zero/1.0/

@@ -1,0 +1,36 @@
+{
+ "dev": [
+  "swiss-dwellings/realworld_09",
+  "wikimedia-commons/realworld_11",
+  "wikimedia-commons/realworld_13",
+  "synthetic/synthetic_01",
+  "synthetic/synthetic_03",
+  "synthetic/synthetic_05",
+  "synthetic/synthetic_07",
+  "synthetic/synthetic_09",
+  "synthetic/synthetic_11",
+  "synthetic/synthetic_13",
+  "synthetic/synthetic_15",
+  "synthetic/synthetic_17",
+  "synthetic/synthetic_19",
+  "synthetic/synthetic_21",
+  "synthetic/synthetic_23"
+ ],
+ "test": [
+  "swiss-dwellings/realworld_08",
+  "swiss-dwellings/realworld_10",
+  "wikimedia-commons/realworld_14",
+  "synthetic/synthetic_00",
+  "synthetic/synthetic_02",
+  "synthetic/synthetic_04",
+  "synthetic/synthetic_06",
+  "synthetic/synthetic_08",
+  "synthetic/synthetic_10",
+  "synthetic/synthetic_12",
+  "synthetic/synthetic_14",
+  "synthetic/synthetic_16",
+  "synthetic/synthetic_18",
+  "synthetic/synthetic_20",
+  "synthetic/synthetic_22"
+ ]
+}

@@ -1,0 +1,731 @@
+{
+ "schema": "floorplan/v0",
+ "image": {
+  "file": "synthetic_12.jpg",
+  "width": 741,
+  "height": 1000
+ },
+ "scale": {
+  "mm_per_px": 10.41,
+  "source": "synthetic (exact)"
+ },
+ "walls": [
+  {
+   "id": "w1",
+   "centerline": [
+    [
+     131.07,
+     141.49
+    ],
+    [
+     596.9,
+     133.36
+    ]
+   ],
+   "thickness_px": 24.976,
+   "kind": "exterior",
+   "polygon": [
+    [
+     143.78,
+     153.76
+    ],
+    [
+     118.37,
+     129.22
+    ],
+    [
+     609.17,
+     120.66
+    ],
+    [
+     584.63,
+     146.06
+    ]
+   ],
+   "thickness_mm": 260.0
+  },
+  {
+   "id": "w2",
+   "centerline": [
+    [
+     596.9,
+     133.36
+    ],
+    [
+     609.56,
+     858.51
+    ]
+   ],
+   "thickness_px": 24.976,
+   "kind": "exterior",
+   "polygon": [
+    [
+     584.63,
+     146.06
+    ],
+    [
+     609.17,
+     120.66
+    ],
+    [
+     622.26,
+     870.78
+    ],
+    [
+     596.86,
+     846.25
+    ]
+   ],
+   "thickness_mm": 260.0
+  },
+  {
+   "id": "w3",
+   "centerline": [
+    [
+     609.56,
+     858.51
+    ],
+    [
+     143.73,
+     866.65
+    ]
+   ],
+   "thickness_px": 24.976,
+   "kind": "exterior",
+   "polygon": [
+    [
+     596.86,
+     846.25
+    ],
+    [
+     622.26,
+     870.78
+    ],
+    [
+     131.46,
+     879.35
+    ],
+    [
+     156.0,
+     853.94
+    ]
+   ],
+   "thickness_mm": 260.0
+  },
+  {
+   "id": "w4",
+   "centerline": [
+    [
+     143.73,
+     866.65
+    ],
+    [
+     131.07,
+     141.49
+    ]
+   ],
+   "thickness_px": 24.976,
+   "kind": "exterior",
+   "polygon": [
+    [
+     156.0,
+     853.94
+    ],
+    [
+     131.46,
+     879.35
+    ],
+    [
+     118.37,
+     129.22
+    ],
+    [
+     143.78,
+     153.76
+    ]
+   ],
+   "thickness_mm": 260.0
+  },
+  {
+   "id": "w5",
+   "centerline": [
+    [
+     139.12,
+     602.52
+    ],
+    [
+     604.95,
+     594.39
+    ]
+   ],
+   "thickness_px": 12.488,
+   "kind": "interior",
+   "polygon": [
+    [
+     151.72,
+     608.54
+    ],
+    [
+     151.5,
+     596.06
+    ],
+    [
+     592.35,
+     588.36
+    ],
+    [
+     592.57,
+     600.85
+    ]
+   ],
+   "thickness_mm": 130.0
+  },
+  {
+   "id": "w6",
+   "centerline": [
+    [
+     380.8,
+     137.13
+    ],
+    [
+     388.84,
+     598.16
+    ]
+   ],
+   "thickness_px": 12.488,
+   "kind": "interior",
+   "polygon": [
+    [
+     374.77,
+     149.73
+    ],
+    [
+     387.26,
+     149.51
+    ],
+    [
+     394.98,
+     591.81
+    ],
+    [
+     382.49,
+     592.02
+    ]
+   ],
+   "thickness_mm": 130.0
+  }
+ ],
+ "openings": [
+  {
+   "id": "d1",
+   "category": "door",
+   "type": "single",
+   "wall_id": "w5",
+   "jambs": [
+    [
+     404.69,
+     597.88
+    ],
+    [
+     476.73,
+     596.62
+    ]
+   ],
+   "width_px": 72.046,
+   "width_mm": 750.0,
+   "leaves": [
+    {
+     "hinge": [
+      476.62,
+      590.38
+     ],
+     "closed_tip": [
+      404.58,
+      591.64
+     ],
+     "open_tip": [
+      475.36,
+      518.35
+     ],
+     "max_angle_deg": 90
+    }
+   ],
+   "slide": null,
+   "connects": [
+    "r3",
+    "r2"
+   ],
+   "swing_into": "r2",
+   "handedness": "RH"
+  },
+  {
+   "id": "d2",
+   "category": "door",
+   "type": "single",
+   "wall_id": "w5",
+   "jambs": [
+    [
+     195.79,
+     601.53
+    ],
+    [
+     282.23,
+     600.02
+    ]
+   ],
+   "width_px": 86.455,
+   "width_mm": 900.0,
+   "leaves": [
+    {
+     "hinge": [
+      282.12,
+      593.78
+     ],
+     "closed_tip": [
+      195.68,
+      595.28
+     ],
+     "open_tip": [
+      280.61,
+      507.33
+     ],
+     "max_angle_deg": 90
+    }
+   ],
+   "slide": null,
+   "connects": [
+    "r3",
+    "r1"
+   ],
+   "swing_into": "r1",
+   "handedness": "RH"
+  },
+  {
+   "id": "d3",
+   "category": "door",
+   "type": "single",
+   "wall_id": "w4",
+   "jambs": [
+    [
+     141.6,
+     744.67
+    ],
+    [
+     143.11,
+     831.11
+    ]
+   ],
+   "width_px": 86.455,
+   "width_mm": 900.0,
+   "leaves": [
+    {
+     "hinge": [
+      155.6,
+      830.89
+     ],
+     "closed_tip": [
+      154.09,
+      744.45
+     ],
+     "open_tip": [
+      242.04,
+      829.38
+     ],
+     "max_angle_deg": 90
+    }
+   ],
+   "slide": null,
+   "connects": [
+    "outside",
+    "r3"
+   ],
+   "swing_into": "r3",
+   "handedness": "RH",
+   "role": "entrance"
+  },
+  {
+   "id": "win1",
+   "category": "window",
+   "type": "unknown",
+   "wall_id": "w4",
+   "jambs": [
+    [
+     134.08,
+     313.42
+    ],
+    [
+     136.17,
+     433.47
+    ]
+   ],
+   "width_px": 120.077,
+   "width_mm": 1250.0,
+   "leaves": [],
+   "slide": null,
+   "connects": [
+    "outside",
+    "r1"
+   ],
+   "swing_into": null,
+   "handedness": null
+  },
+  {
+   "id": "win2",
+   "category": "window",
+   "type": "unknown",
+   "wall_id": "w1",
+   "jambs": [
+    [
+     225.2,
+     139.85
+    ],
+    [
+     340.46,
+     137.84
+    ]
+   ],
+   "width_px": 115.274,
+   "width_mm": 1200.0,
+   "leaves": [],
+   "slide": null,
+   "connects": [
+    "r1",
+    "outside"
+   ],
+   "swing_into": null,
+   "handedness": null
+  },
+  {
+   "id": "win3",
+   "category": "window",
+   "type": "unknown",
+   "wall_id": "w2",
+   "jambs": [
+    [
+     597.71,
+     179.46
+    ],
+    [
+     598.88,
+     246.7
+    ]
+   ],
+   "width_px": 67.243,
+   "width_mm": 700.0,
+   "leaves": [],
+   "slide": null,
+   "connects": [
+    "r2",
+    "outside"
+   ],
+   "swing_into": null,
+   "handedness": null
+  },
+  {
+   "id": "win4",
+   "category": "window",
+   "type": "unknown",
+   "wall_id": "w1",
+   "jambs": [
+    [
+     488.37,
+     135.26
+    ],
+    [
+     550.8,
+     134.17
+    ]
+   ],
+   "width_px": 62.44,
+   "width_mm": 650.0,
+   "leaves": [],
+   "slide": null,
+   "connects": [
+    "r2",
+    "outside"
+   ],
+   "swing_into": null,
+   "handedness": null
+  },
+  {
+   "id": "win5",
+   "category": "window",
+   "type": "unknown",
+   "wall_id": "w3",
+   "jambs": [
+    [
+     189.83,
+     865.84
+    ],
+    [
+     309.89,
+     863.75
+    ]
+   ],
+   "width_px": 120.077,
+   "width_mm": 1250.0,
+   "leaves": [],
+   "slide": null,
+   "connects": [
+    "outside",
+    "r3"
+   ],
+   "swing_into": null,
+   "handedness": null
+  },
+  {
+   "id": "win6",
+   "category": "window",
+   "type": "unknown",
+   "wall_id": "w2",
+   "jambs": [
+    [
+     605.7,
+     637.61
+    ],
+    [
+     608.22,
+     781.68
+    ]
+   ],
+   "width_px": 144.092,
+   "width_mm": 1500.0,
+   "leaves": [],
+   "slide": null,
+   "connects": [
+    "r3",
+    "outside"
+   ],
+   "swing_into": null,
+   "handedness": null
+  }
+ ],
+ "rooms": [
+  {
+   "id": "r1",
+   "polygon": [
+    [
+     374.77,
+     149.73
+    ],
+    [
+     382.49,
+     592.02
+    ],
+    [
+     151.5,
+     596.06
+    ],
+    [
+     143.78,
+     153.76
+    ]
+   ],
+   "polygon_centerline": [
+    [
+     380.8,
+     137.13
+    ],
+    [
+     388.84,
+     598.16
+    ],
+    [
+     139.12,
+     602.52
+    ],
+    [
+     131.07,
+     141.49
+    ]
+   ],
+   "label": "BEDROOM",
+   "type": "bedroom",
+   "label_source": "gt",
+   "label_drawn": true,
+   "area_m2": 11.075
+  },
+  {
+   "id": "r2",
+   "polygon": [
+    [
+     394.98,
+     591.81
+    ],
+    [
+     387.26,
+     149.51
+    ],
+    [
+     584.63,
+     146.06
+    ],
+    [
+     592.35,
+     588.36
+    ]
+   ],
+   "polygon_centerline": [
+    [
+     596.9,
+     133.36
+    ],
+    [
+     604.95,
+     594.39
+    ],
+    [
+     388.84,
+     598.16
+    ],
+    [
+     380.8,
+     137.13
+    ]
+   ],
+   "label": "BATHROOM",
+   "type": "bath",
+   "label_source": "gt",
+   "label_drawn": true,
+   "area_m2": 9.463
+  },
+  {
+   "id": "r3",
+   "polygon": [
+    [
+     592.57,
+     600.85
+    ],
+    [
+     596.86,
+     846.25
+    ],
+    [
+     156.0,
+     853.94
+    ],
+    [
+     151.72,
+     608.54
+    ]
+   ],
+   "polygon_centerline": [
+    [
+     604.95,
+     594.39
+    ],
+    [
+     609.56,
+     858.51
+    ],
+    [
+     143.73,
+     866.65
+    ],
+    [
+     139.12,
+     602.52
+    ]
+   ],
+   "label": "LIVING / KITCHEN",
+   "type": "living",
+   "label_source": "gt",
+   "label_drawn": true,
+   "area_m2": 11.727
+  }
+ ],
+ "stairs": [],
+ "labels": [
+  {
+   "text": "BEDROOM",
+   "bbox": [
+    198.9,
+    358.8,
+    327.4,
+    387.0
+   ],
+   "kind": "room_name",
+   "room": "r1"
+  },
+  {
+   "text": "BATHROOM",
+   "bbox": [
+    416.1,
+    354.6,
+    563.5,
+    383.2
+   ],
+   "kind": "room_name",
+   "room": "r2"
+  },
+  {
+   "text": "LIVING / KITCHEN",
+   "bbox": [
+    261.6,
+    711.4,
+    487.0,
+    743.4
+   ],
+   "kind": "room_name",
+   "room": "r3"
+  }
+ ],
+ "gt_fidelity": {
+  "walls": "full",
+  "door_swing": "full",
+  "door_type": true,
+  "windows": true,
+  "rooms": true,
+  "room_types": true,
+  "derived_from": "synthetic (tools/synthetic_gen.py index 12 seed 20356041)"
+ },
+ "conventions": {
+  "jambs": "wall centerline points at the two ends of the opening (a=jambs[0], b=jambs[1])",
+  "leaves": "hinge/closed_tip = jamb corners on the wall face of the swing side (where leaf+arc are drawn); open_tip = leaf tip at 90 deg",
+  "handedness": "schema/US letters viewed from the side the door swings AWAY from: hinge on viewer's left=LH, right=RH (LHR/RHR never used); single leaves only",
+  "connects": "swing doors: [non-swing-side room, swing_into]; others: [room on +normal side, room on -normal side]",
+  "rooms": "polygon = clear wall-face polygon; polygon_centerline = wall-centerline polygon",
+  "winding": "positive shoelace area in image coords (x right, y down): mathematically CCW in the image frame, appears clockwise on screen",
+  "slide": "pocket: track_side = jamb whose side holds the wall pocket, direction = unit vector the panel moves to open; bypass sliding: track_side/direction null, panels=2",
+  "labels": "bbox is axis-aligned in the final (possibly rotated) image"
+ },
+ "generator": {
+  "tool": "tools/synthetic_gen.py",
+  "index": 12,
+  "seed": 20356041,
+  "knobs": {
+   "n_rooms": 3,
+   "l_shape": false,
+   "chamfers": 0,
+   "corridor": false,
+   "wall_style": "solid",
+   "text": true,
+   "dims": false,
+   "furniture": false,
+   "extras": [],
+   "long_px": 1000,
+   "degrade_level": 1,
+   "degrade": {
+    "jpeg": 70,
+    "rot": 1.0
+   }
+  },
+  "rotation_matrix": [
+   [
+    0.9998477,
+    0.01745241,
+    -8.66977427
+   ],
+   [
+    -0.01745241,
+    0.9998477,
+    6.54226901
+   ]
+  ],
+  "wall_thickness_mm": {
+   "exterior": 260.0,
+   "interior": 130.0
+  },
+  "diagonal_walls_in_rooms": []
+ }
+}

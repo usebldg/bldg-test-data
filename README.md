@@ -14,8 +14,9 @@ under the licence of its folder ([LICENSE.md](LICENSE.md)).
 Swiss Dwellings: 28 residential floors and 12 office or commercial ones (offices, shops, a medical practice, a
 workshop), most of them turned 4 to 42 degrees in the source.
 
-bldg's published benchmarks also use 31 samples from CubiCasa5K, FloorPlanCAD, CVC-FP and SESYD. Their licences do
-not allow commercial use or redistribution (CC BY-NC 4.0, or no licence), so they are not here.
+bldg's published benchmarks used 31 non-synthetic plans of an earlier local set: 12 from CubiCasa5K, 12 from
+FloorPlanCAD and 4 from CVC-FP, which are not here (CC BY-NC 4.0: no commercial use), and 3 Swiss Dwellings plans,
+which are (`swiss-dwellings/realworld_08`, `_09`, `_10`).
 
 ## Layout
 

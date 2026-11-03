@@ -57,12 +57,18 @@ python3 -I tools/fp_eval.py --pred-dir PRED_DIR --split test --md report.md   # 
 
 ## Use with bldg
 
-Clone it next to the bldg repository; bldg's tests, benchmarks and figure scripts find it there (`tests/testdata.py`;
-`BLDG_TESTDATA` points them elsewhere):
+Clone it next to the bldg repository (bldg's `.gitignore` names `bldg-test-data/`, so a copy inside it is never
+committed either):
 
 ```bash
 git clone https://github.com/usebldg/bldg-test-data ../bldg-test-data
 ```
+
+The Python version of bldg ([usebldg/bldg-python](https://github.com/usebldg/bldg-python), archived) read it there in
+its tests, benchmarks and figure scripts (`tests/testdata.py`; `BLDG_TESTDATA` pointed them elsewhere). bldg is now
+the Rust app, which does not read this set yet: none of its tests or benchmarks use it. The scripts in
+[`tools/`](#tools) do not import bldg and work on their own, so a tracer's predictions (floorplan/v0, one JSON file
+per sample) are scored with `fp_eval.py` as above, whatever made them.
 
 ## Ground truth: floorplan/v0
 

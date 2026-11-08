@@ -1,7 +1,7 @@
 # bldg test data
 
 Floor plan images with ground truth, and real BIM models, used to test and benchmark
-[bldg](https://github.com/usebldg/bldg) (buildings AI agents can edit). Every file here may be used commercially,
+[bldg](https://usebldg.com) (buildings AI agents can edit). Every file here may be used commercially,
 under the licence of its folder ([LICENSE.md](LICENSE.md)).
 
 | folder | samples | ground truth | licence |
@@ -14,9 +14,9 @@ under the licence of its folder ([LICENSE.md](LICENSE.md)).
 Swiss Dwellings: 28 residential floors and 12 office or commercial ones (offices, shops, a medical practice, a
 workshop), most of them turned 4 to 42 degrees in the source.
 
-bldg's published benchmarks used 31 non-synthetic plans of an earlier local set: 12 from CubiCasa5K, 12 from
-FloorPlanCAD and 4 from CVC-FP, which are not here (CC BY-NC 4.0: no commercial use), and 3 Swiss Dwellings plans,
-which are (`swiss-dwellings/realworld_08`, `_09`, `_10`).
+bldg's published benchmarks used non-synthetic plans of an earlier local set. Of those, only the three Swiss
+Dwellings plans are here (`swiss-dwellings/realworld_08`, `_09`, `_10`); the others could not be used commercially,
+so they are not part of this set.
 
 ## Layout
 
@@ -55,20 +55,15 @@ opencv-python-headless, shapely, scipy):
 python3 -I tools/fp_eval.py --pred-dir PRED_DIR --split test --md report.md   # one <name>.json per sample
 ```
 
-## Use with bldg
-
-Clone it next to the bldg repository (bldg's `.gitignore` names `bldg-test-data/`, so a copy inside it is never
-committed either):
+## Use
 
 ```bash
-git clone https://github.com/usebldg/bldg-test-data ../bldg-test-data
+git clone https://github.com/usebldg/bldg-test-data
 ```
 
-The Python version of bldg ([usebldg/bldg-python](https://github.com/usebldg/bldg-python), archived) read it there in
-its tests, benchmarks and figure scripts (`tests/testdata.py`; `BLDG_TESTDATA` pointed them elsewhere). bldg is now
-the Rust app, which does not read this set yet: none of its tests or benchmarks use it. The scripts in
-[`tools/`](#tools) do not import bldg and work on their own, so a tracer's predictions (floorplan/v0, one JSON file
-per sample) are scored with `fp_eval.py` as above, whatever made them.
+bldg's own tests and benchmarks do not read this set today. The scripts in [`tools/`](#tools) do not import bldg and
+work on their own, so a tracer's predictions (floorplan/v0, one JSON file per sample) are scored with `fp_eval.py` as
+above, whatever made them.
 
 ## Ground truth: floorplan/v0
 

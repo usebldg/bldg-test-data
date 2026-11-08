@@ -47,7 +47,7 @@ ROOT = os.path.dirname(TOOLS)
 sys.path.insert(0, TOOLS)
 import fpgt  # noqa: E402  (our own validator; -I does not add the script dir)
 
-DATASETS = ["cubicasa5k", "floorplancad", "cvc-fp", "sesyd", "swiss-dwellings", "synthetic", "wikimedia-commons"]
+DATASETS = ["swiss-dwellings", "synthetic", "wikimedia-commons"]
 DOOR_CLASSES = ["single", "double", "sliding", "pocket", "folding", "revolving", "garage", "none"]
 ROOM_CLASSES = ["kitchen", "bedroom", "bath", "living", "corridor", "storage", "balcony", "outdoor", "other"]
 ANGLE_GATE_DEG = 20.0
@@ -333,7 +333,7 @@ def clip_segment(a, b, lo, hi):
 def wall_area_geom(walls, w, h):
     """Union of the wall footprints, intersected with the image, as an exact shapely geometry.
     polygon if present, otherwise the centerline buffered by t/2 with FLAT caps (a wall is a
-    centerline x thickness rectangle; the GT polygons of floorplancad / swiss-dwellings / cvc-fp are
+    centerline x thickness rectangle; the GT polygons of swiss-dwellings are
     exactly that, so round caps would cap a perfect centerline prediction at IoU ~0.88-0.93)."""
     from shapely.geometry import box
     diag = math.hypot(w, h)
@@ -596,7 +596,7 @@ def eval_walls(c, Gw, Pw, w, h, tau):
             ii = pidx[r]
             cost = np.where(d <= tau["tau2"] + EPS, d + tau["tau2"] * mis[ii][:, J], np.inf)
             best = cost.min(1, keepdims=True)
-            # exact ties = overlapping collinear G walls (CubiCasa has a few with different kinds):
+            # exact ties = overlapping collinear G walls (some sources have a few with different kinds):
             # any known kind in the tie set is accepted
             gkJ = gk[J]
             tie = np.isfinite(best) & (cost <= best + 1e-6) & (gkJ[None] != "unknown")
@@ -883,9 +883,8 @@ def run_split(pred_dir, split, testdata):
     rob_all = {k: sum(r[k] for r in rob.values()) for k in ("n_samples", "n_missing", "n_invalid", "n_eval_errors")}
     report = {
         "eval": "floorplan eval-v0", "split": split, "pred_dir": os.path.abspath(pred_dir),
-        "notes": ["floorplancad wall GT is incomplete: read wall precision there as a lower bound"] * ("floorplancad" in per_ds)
-                 + ["per-dataset and overall values are micro-averages of the raw counts",
-                    "wikimedia-commons samples have no GT: robustness only (prediction present, valid, no crash)"],
+        "notes": ["per-dataset and overall values are micro-averages of the raw counts",
+                  "wikimedia-commons samples have no GT: robustness only (prediction present, valid, no crash)"],
         "per_dataset": {d: {"robustness": rob[d], "metrics": finalize(per_ds[d])} for d in datasets},
         "overall": {"robustness": rob_all, "metrics": finalize(overall)},
         "per_sample": per_sample,
@@ -920,8 +919,6 @@ def to_markdown(report):
         cells = [name, f"{r.get('n_samples', 1)} ({r.get('n_missing', 0)}/{r.get('n_invalid', 0)})"]
         cells += [_cell(block["metrics"].get(k)) for k, _ in MD_COLS]
         lines.append("| " + " | ".join(cells) + " |")
-    if "floorplancad" in report["per_dataset"]:
-        lines += ["", "FloorPlanCAD wall GT is incomplete: its wall precision (and F1) is a lower bound."]
     return "\n".join(lines) + "\n"
 
 
